@@ -1,0 +1,31 @@
+/*
+*= require bootstrap
+*/
+
+/* =general
+---------------------------------------------------------------------------- */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* =home
+---------------------------------------------------------------------------- */
+h1 {
+  text-indent: -9999px;
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    display: block;
+    height: 60px;
+    width: 120px;
+    background: #ccc;
+  }
+}
+.hero-unit {
+  min-height: 300px;
+}
+.nav li {
+  float: left;
+}

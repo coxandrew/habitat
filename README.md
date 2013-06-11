@@ -1,20 +1,33 @@
-## Mini-focus
+## TL;DR:
 
-* Go through Getting Started for Middleman
-* Integrate Twitter Bootstrap
-* Review site design research
+Run the site locally:
+
+    $ rake preview
+
+And then visit: [http://127.0.0.1:4567](http://127.0.0.1:4567) in your browser.
 
 ## Getting Started
 
-This site is built using [Middleman](http://middlemanapp.com/).
+This site is built using [Middleman](http://middlemanapp.com/). If you have a working Ruby installation (preferably using RVM), you should be able to follow along with the Quickstart instructions.
 
-### Run the site locally
+### Quickstart
 
-### Build the site
+#### Checkout and install dependencies
 
-## Design Notes
+`cd` into the project and install the gems:
 
-### Sites we like
+    $ git clone git@github.com:coxandrew/habitat
+    $ cd habitat
+    $ bundle install --binstubs
 
-* [VCU](http://www.vcu.edu/)
+#### Run the site locally
 
+Start the middleman server:
+
+    $ rake preview
+
+### Publish the site
+
+To build and deploy a static version of the site, just run:
+
+    $ rake publish

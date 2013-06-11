@@ -40,6 +40,8 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+activate :livereload, host: '127.0.0.1'
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -48,9 +50,7 @@
 # end
 
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
 
 # Build-specific configuration
