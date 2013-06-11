@@ -2099,7 +2099,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("/images/glyphicons-halflings.png");
+  background-image: url("../images/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px; }
@@ -2123,7 +2123,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("/images/glyphicons-halflings-white.png"); }
+  background-image: url("../images/glyphicons-halflings-white.png"); }
 
 /* line 52, /Users/cox/.rvm/gems/ruby-1.9.3-p392@habitat/bundler/gems/bootstrap-sass-f6d96d164c51/vendor/assets/stylesheets/bootstrap/_sprites.scss */
 .icon-glass {
