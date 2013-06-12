@@ -10,17 +10,19 @@ body {
 
 /* =home
 ---------------------------------------------------------------------------- */
-h1 {
-  text-indent: -9999px;
+header {
+  h1 {
+    text-indent: -9999px;
 
-  a:link,
-  a:visited,
-  a:hover,
-  a:active {
-    display: block;
-    height: 60px;
-    width: 120px;
-    background: #ccc;
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      display: block;
+      height: 60px;
+      width: 120px;
+      background: #ccc;
+    }
   }
 }
 .hero-unit {
