@@ -5834,23 +5834,23 @@ body {
 
 /* =home
 ---------------------------------------------------------------------------- */
-/* line 14, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
-h1 {
+/* line 15, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+header h1 {
   text-indent: -9999px; }
-  /* line 20, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
-  h1 a:link,
-  h1 a:visited,
-  h1 a:hover,
-  h1 a:active {
+  /* line 21, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  header h1 a:link,
+  header h1 a:visited,
+  header h1 a:hover,
+  header h1 a:active {
     display: block;
     height: 60px;
     width: 120px;
     background: #ccc; }
 
-/* line 27, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 29, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .hero-unit {
   min-height: 300px; }
 
-/* line 30, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 32, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .nav li {
   float: left; }
