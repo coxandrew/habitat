@@ -92,12 +92,25 @@ $(document).ready(function () {
 
 function initializeCarousel() {
   var carouselActions = $('.carousel-actions .action');
+
+  var actions = [
+    'apply',
+    'volunteer',
+    'donate'
+  ]
+  var images = [
+    '<%= image_path("carousel-apply.jpg") %>',
+    '<%= image_path("carousel-volunteer.jpg") %>',
+    '<%= image_path("carousel-donate.jpg") %>'
+  ]
   carouselActions.click(function() {
     carouselActions.removeClass('active');
     $(this).addClass('active');
     var selectedAction = $(this).attr('id').split('-')[1];
+    var actionIndex = actions.indexOf(selectedAction);
+
     $('.rotating-image').css('background-image',
-      'url("../images/carousel-' + selectedAction + '.jpg")');
+      'url("' + images[actionIndex] + '")');
     $('.call-to-action').hide();
     $('.call-to-action.action-' + selectedAction).show();
   });
