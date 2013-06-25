@@ -5826,31 +5826,77 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /*
 
 */
+/* Colors */
 /* =general
 ---------------------------------------------------------------------------- */
-/* line 8, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 10, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* =home
+/* =header
 ---------------------------------------------------------------------------- */
-/* line 15, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
-header h1 {
-  text-indent: -9999px; }
-  /* line 21, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
-  header h1 a:link,
-  header h1 a:visited,
-  header h1 a:hover,
-  header h1 a:active {
-    display: block;
-    height: 60px;
-    width: 120px;
-    background: #ccc; }
+/* line 16, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+header {
+  position: relative;
+  border-bottom: 1px solid #cccccc; }
+  /* line 20, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  header .logo {
+    margin: 0; }
+    /* line 26, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    header .logo a:link,
+    header .logo a:visited,
+    header .logo a:hover,
+    header .logo a:active {
+      display: block;
+      height: 112px;
+      width: 240px;
+      text-indent: -9999px;
+      background: url("../images/habitat-logo.png") no-repeat 0 0; }
 
-/* line 29, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 36, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .hero-unit {
   min-height: 300px; }
 
-/* line 32, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 39, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0; }
+
+/* line 45, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .nav li {
   float: left; }
+  /* line 51, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  .nav li a:link,
+  .nav li a:visited,
+  .nav li a:hover,
+  .nav li a:active {
+    padding: 5px 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #005f99; }
+
+/* =home
+---------------------------------------------------------------------------- */
+/* line 61, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.main h1 {
+  margin: 20px 0;
+  font-family: Century Gothic, Arial, Sans-Serif;
+  font-weight: 100;
+  font-size: 2.8rem;
+  color: #333333; }
+
+/* =footer
+---------------------------------------------------------------------------- */
+/* line 71, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+footer {
+  margin-top: 30px;
+  padding: 10px 0 50px;
+  border-top: 1px solid #cccccc; }
+  /* line 76, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  footer .address {
+    float: left; }
+  /* line 79, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  footer .contact {
+    float: right; }
