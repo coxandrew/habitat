@@ -135,12 +135,25 @@ $(document).ready(function () {
 
 function initializeCarousel() {
   var carouselActions = $('.carousel-actions .action');
+
+  var actions = [
+    'apply',
+    'volunteer',
+    'donate'
+  ]
+  var images = [
+    'images/carousel-apply.jpg',
+    'images/carousel-volunteer.jpg',
+    'images/carousel-donate.jpg'
+  ]
   carouselActions.click(function() {
     carouselActions.removeClass('active');
     $(this).addClass('active');
     var selectedAction = $(this).attr('id').split('-')[1];
+    var actionIndex = actions.indexOf(selectedAction);
+
     $('.rotating-image').css('background-image',
-      'url("../images/carousel-' + selectedAction + '.jpg")');
+      'url("' + images[actionIndex] + '")');
     $('.call-to-action').hide();
     $('.call-to-action.action-' + selectedAction).show();
   });
