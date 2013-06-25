@@ -28,12 +28,55 @@ header {
       width: 240px;
       text-indent: -9999px;
       background: image-url("habitat-logo.png") no-repeat 0 0;
-
     }
   }
 }
-.hero-unit {
-  min-height: 300px;
+.rotating-image {
+  height: 400px;
+  background: #fff image-url("carousel-apply.jpg") no-repeat 50% 10%;
+  border: 2px solid $habitat_green;
+  border-bottom-width: 5px;
+}
+.carousel-actions {
+  margin-bottom: 10px;
+
+  .action {
+    float: left;
+    width: 233px;
+    text-align: center;
+    cursor: pointer;
+
+    .inside {
+      margin-right: 1px;
+      padding: 20px 0;
+      background: $habitat_blue;
+      color: #fff;
+    }
+    .name {
+      font-size: 1.6rem;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+    }
+    .caption {
+      font-weight: 100;
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+  }
+  .action-volunteer {
+    width: 234px;
+  }
+  .action-donate {
+    .inside {
+      margin-right: 0;
+    }
+  }
+  .action.active {
+    .inside {
+      background: $habitat_green;
+    }
+  }
+
 }
 .nav {
   position: absolute;
@@ -51,18 +94,34 @@ header {
     padding: 5px 12px;
     font-size: 1.2rem;
     line-height: 1;
-    color: $primary_blue;
+    color: $habitat_blue;
   }
 }
 
 /* =home
 ---------------------------------------------------------------------------- */
 .main h1 {
-  margin: 20px 0;
-  font-family: Century Gothic, Arial, Sans-Serif;
+  margin: 40px 0 20px;
+  font-family: Gill Sans, Arial, Sans-Serif;
   font-weight: 100;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   color: $dark_gray;
+}
+.call-to-action {
+  display: none;
+}
+.action-apply {
+  display: block;
+}
+
+/* =spotlight
+---------------------------------------------------------------------------- */
+.homeowner-spotlight {
+  .image {
+    height: 240px;
+    background: #ddd;
+    margin-bottom: 10px;
+  }
 }
 
 /* =footer

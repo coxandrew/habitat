@@ -7,36 +7,64 @@ title: Powhatan - Habitat for Humanity
 <div class="row">
 
   <div class="span9">
-    <div class="hero-unit">
-      <h2>ROTATING IMAGE</h2>
+    <div class="rotating-image">
     </div>
 
-    <div class="row">
-      <div class="span3" style="text-align: center">
-        Apply
+    <div class="carousel-actions">
+      <div id="action-apply" class="action action-apply active">
+        <div class="inside">
+          <div class="name">Apply</div>
+          <div class="caption">to own a home</div>
+        </div>
       </div>
-      <div class="span3" style="text-align: center">
-        Volunteer
+      <div id="action-volunteer" class="action action-volunteer">
+        <div class="inside">
+          <div class="name">Volunteer</div>
+          <div class="caption">to build a home</div>
+        </div>
       </div>
-      <div class="span3" style="text-align: center">
-        Donate
+      <div id="action-donate" class="action action-donate">
+        <div class="inside">
+          <div class="name">Donate</div>
+          <div class="caption">a gift to Habitat</div>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="span3">
+  <div class="call-to-action action-apply span3">
     <h2>Apply to be a homeowner</h2>
 
     <p>
       We build houses with private donations and volunteer labor. Do you have a housing need and have a steady income?
     </p>
 
-    <input type="submit" value="Apply Now" class="btn btn-primary btn-large" />
+    <%= link_to 'Apply Now', '/apply.html', class: 'btn btn-primary btn-large' %>
+  </div>
+
+  <div class="call-to-action action-volunteer span3">
+    <h2>Volunteer to build a home</h2>
+
+    <p>
+      We build houses with private donations and volunteer labor. Do you have a housing need and have a steady income?
+    </p>
+
+    <%= link_to 'Volunteer', '/volunteer.html', class: 'btn btn-primary btn-large' %>
+  </div>
+
+  <div class="call-to-action action-donate span3">
+    <h2>Donate your tax-deductible gift</h2>
+
+    <p>
+      We build houses with private donations and volunteer labor. Do you have a housing need and have a steady income?
+    </p>
+
+    <%= link_to 'Donate', '/donate.html', class: 'btn btn-primary btn-large' %>
   </div>
 </div>
 
 <div class="row">
-  <div class="span7">
+  <div class="span6">
     <h3>News</h3>
 
     <ul>
@@ -45,11 +73,33 @@ title: Powhatan - Habitat for Humanity
       <li>blah blah blah</li>
     </ul>
   </div>
-  <div class="span5">
+  <div class="homeowner-spotlight span6">
     <h3>Homeowner Spotlight</h3>
 
+    <div class="image">
+    </div>
+
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </div>
 </div>
+
+<script>
+$(document).ready(function () {
+  initializeCarousel();
+});
+
+function initializeCarousel() {
+  var carouselActions = $('.carousel-actions .action');
+  carouselActions.click(function() {
+    carouselActions.removeClass('active');
+    $(this).addClass('active');
+    var selectedAction = $(this).attr('id').split('-')[1];
+    $('.rotating-image').css('background-image',
+      'url("/images/carousel-' + selectedAction + '.jpg")');
+    $('.call-to-action').hide();
+    $('.call-to-action.action-' + selectedAction).show();
+  });
+}
+</script>
