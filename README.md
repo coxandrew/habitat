@@ -28,9 +28,10 @@ Start the middleman server:
 
 ### Publish the site
 
-To build and deploy a static version of the site, you must first commit any changes and then `rake publish`:
+To build and deploy a static version of the site, you must first commit and push any changes and then `rake publish`:
 
     $ git commit -am "Updating the news section"
+    $ git push
     $ rake publish
 
 Until launch, you can preview the published site here:
