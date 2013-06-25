@@ -97,7 +97,7 @@ function initializeCarousel() {
     $(this).addClass('active');
     var selectedAction = $(this).attr('id').split('-')[1];
     $('.rotating-image').css('background-image',
-      'url("/images/carousel-' + selectedAction + '.jpg")');
+      'url("../images/carousel-' + selectedAction + '.jpg")');
     $('.call-to-action').hide();
     $('.call-to-action.action-' + selectedAction).show();
   });
