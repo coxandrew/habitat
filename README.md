@@ -28,6 +28,19 @@ Start the middleman server:
 
 ### Publish the site
 
-To build and deploy a static version of the site, just run:
+To build and deploy a static version of the site, you must first commit any changes and then `rake publish`:
 
+    $ git commit -am "Updating the news section"
     $ rake publish
+
+Until launch, you can preview the published site here:
+
+http://coxandrew.github.io/habitat/
+
+## Editing
+
+To edit common content, you just need to change the variables at the top of each HTML template:
+
+    ---
+    title: Powhatan - Habitat for Humanity
+    ---

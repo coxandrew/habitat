@@ -2,32 +2,80 @@
 *= require bootstrap
 */
 
+@import "colors";
+
 /* =general
 ---------------------------------------------------------------------------- */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* =home
+/* =header
 ---------------------------------------------------------------------------- */
 header {
-  h1 {
-    text-indent: -9999px;
+  position: relative;
+  border-bottom: 1px solid $light_gray;
+
+  .logo {
+    margin: 0;
 
     a:link,
     a:visited,
     a:hover,
     a:active {
       display: block;
-      height: 60px;
-      width: 120px;
-      background: #ccc;
+      height: 112px;
+      width: 240px;
+      text-indent: -9999px;
+      background: image-url("habitat-logo.png") no-repeat 0 0;
+
     }
   }
 }
 .hero-unit {
   min-height: 300px;
 }
+.nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+}
 .nav li {
   float: left;
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    padding: 5px 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: $primary_blue;
+  }
+}
+
+/* =home
+---------------------------------------------------------------------------- */
+.main h1 {
+  margin: 20px 0;
+  font-family: Century Gothic, Arial, Sans-Serif;
+  font-weight: 100;
+  font-size: 2.8rem;
+  color: $dark_gray;
+}
+
+/* =footer
+---------------------------------------------------------------------------- */
+footer {
+  margin-top: 30px;
+  padding: 10px 0 50px;
+  border-top: 1px solid $light_gray;
+
+  .address {
+    float: left;
+  }
+  .contact {
+    float: right;
+  }
 }
