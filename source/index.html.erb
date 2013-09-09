@@ -62,20 +62,33 @@ title: Habitat for Humanity - Powhatan
 </div>
 
 <div class="row">
-  <div class="span6">
+  <div class="news-headlines span6">
     <h3>News</h3>
 
     <ul>
-      <li>blah blah blah</li>
-      <li>blah blah blah</li>
-      <li>blah blah blah</li>
+      <li>
+        <% link_to '/news.html', class: 'news-thumbnail' do %>
+          <%= image_tag 'news-thumbnails/2013-04-09-screaming-eagles.jpg' %>
+        <% end %>
+        <div class="details">
+          <h4>
+            <%= link_to 'SCREAMING EAGLES RAISE OVER $6000 FOR HABITAT POWHATAN', '/news.html' %>
+          </h4>
+          <div class="byline">
+            <span class="author">Ken Cox</span>
+            &middot;
+            <span class="date">April 13, 2013</span>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
+
   <div class="homeowner-spotlight span6">
     <h3>Homeowner Spotlight</h3>
 
     <div class="image">
-      <%= image_tag 'spotlight-nicely.jpg' %>
+      <%= image_tag 'spotlight-nicely.jpg', class: 'img-polaroid' %>
     </div>
 
     <p>

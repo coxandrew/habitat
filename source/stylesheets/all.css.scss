@@ -4,10 +4,15 @@
 
 @import "colors";
 
+$serif: Georgia, serif;
+
 /* =general
 ---------------------------------------------------------------------------- */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  font-family: $serif;
 }
 
 /* =header
@@ -96,9 +101,51 @@ h2 {
 h3 {
   font-size: 1.4;
   font-weight: 200;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px dotted #888;
   line-height: 1.2;
   margin: 2rem 0 1rem;
+}
+
+/* =news
+---------------------------------------------------------------------------- */
+.news-headlines ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px dotted #888;
+    padding-bottom: 10px;
+  }
+  .news-thumbnail {
+    float: left;
+  }
+  .details {
+    margin-left: 105px;
+
+    h4 {
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: 1.4;
+      margin: 0 0 5px;
+    }
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: #333;
+    }
+    a:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+    .byline {
+      color: #aaa;
+      font-family: $serif;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+  }
 }
 
 /* =carousel
@@ -154,11 +201,12 @@ h3 {
 ---------------------------------------------------------------------------- */
 .homeowner-spotlight {
   .image {
-    display: inline-block;
-    background: #fff;
-    padding: 5px;
-    border: 1px solid #aaa;
     margin-bottom: 10px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #666;
   }
 }
 
