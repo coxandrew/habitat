@@ -5829,20 +5829,24 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* Colors */
 /* =general
 ---------------------------------------------------------------------------- */
-/* line 10, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 12, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+/* line 15, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+p {
+  font-family: Georgia, serif; }
+
 /* =header
 ---------------------------------------------------------------------------- */
-/* line 16, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 21, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 header {
   position: relative;
   border-bottom: 1px solid #cccccc; }
-  /* line 20, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 25, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   header .logo {
     margin: 0; }
-    /* line 26, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 31, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     header .logo a:link,
     header .logo a:visited,
     header .logo a:hover,
@@ -5853,12 +5857,12 @@ header {
       text-indent: -9999px;
       background: url("../images/habitat-logo.png") no-repeat 0 0; }
 
-/* line 35, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 40, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .masthead {
   position: relative;
   padding: 8px 0; }
 
-/* line 39, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 44, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .headline {
   font-family: Gill Sans, Arial, Sans-Serif;
   font-size: 2.5rem;
@@ -5868,19 +5872,19 @@ header {
   bottom: 24px;
   right: 10px; }
 
-/* line 48, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 53, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 nav {
   margin: 0 -20px;
   background: #005f99; }
-  /* line 52, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 57, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   nav ul {
     margin: 0;
     clear: left;
     list-style-type: none; }
-  /* line 57, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 62, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   nav li {
     float: left; }
-    /* line 63, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 68, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     nav li a:link,
     nav li a:visited,
     nav li a:hover,
@@ -5893,103 +5897,144 @@ nav {
       font-weight: 200;
       line-height: 1;
       text-decoration: none; }
-    /* line 75, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 80, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     nav li.active a,
     nav li a:hover {
       background: #5cbc51; }
 
 /* =home
 ---------------------------------------------------------------------------- */
-/* line 83, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 88, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .main {
   padding-top: 20px; }
 
-/* line 86, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 91, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .call-to-action {
   display: none; }
 
-/* line 89, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 94, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .action-apply {
   display: block; }
 
-/* line 92, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 97, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 h2 {
   font-size: 1.8rem;
   font-weight: 200;
   line-height: 1.1; }
 
-/* line 97, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 102, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 h3 {
   font-size: 1.4;
   font-weight: 200;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px dotted #888;
   line-height: 1.2;
   margin: 2rem 0 1rem; }
 
+/* =news
+---------------------------------------------------------------------------- */
+/* line 112, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.news-headlines ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  /* line 117, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  .news-headlines ul li {
+    border-bottom: 1px dotted #888;
+    padding-bottom: 10px; }
+  /* line 121, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  .news-headlines ul .news-thumbnail {
+    float: left; }
+  /* line 124, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  .news-headlines ul .details {
+    margin-left: 105px; }
+    /* line 127, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    .news-headlines ul .details h4 {
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: 1.4;
+      margin: 0 0 5px; }
+    /* line 136, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    .news-headlines ul .details a:link,
+    .news-headlines ul .details a:visited,
+    .news-headlines ul .details a:hover,
+    .news-headlines ul .details a:active {
+      color: #333; }
+    /* line 139, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    .news-headlines ul .details a:hover {
+      color: #000;
+      text-decoration: underline; }
+    /* line 143, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    .news-headlines ul .details .byline {
+      color: #aaa;
+      font-family: Georgia, serif;
+      font-size: 0.8rem;
+      letter-spacing: 1px; }
+
 /* =carousel
 ---------------------------------------------------------------------------- */
-/* line 107, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 154, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-image {
   height: 400px;
   background: white url("../images/carousel-apply.jpg") no-repeat 50% 10%;
   border: 2px solid #5cbc51;
   border-bottom-width: 5px; }
 
-/* line 113, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 160, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .carousel-actions {
   margin-bottom: 10px; }
-  /* line 116, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 163, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action {
     float: left;
     width: 233px;
     text-align: center;
     cursor: pointer; }
-    /* line 122, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 169, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .inside {
       margin-right: 1px;
       padding: 20px 0;
       background: #005f99;
       color: #fff; }
-    /* line 128, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 175, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .name {
       font-size: 1.6rem;
       margin-bottom: 5px;
       letter-spacing: 1px; }
-    /* line 133, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 180, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .caption {
       font-weight: 100;
       font-style: italic;
       letter-spacing: 1px; }
-  /* line 139, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 186, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action-volunteer {
     width: 234px; }
-  /* line 143, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 190, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action-donate .inside {
     margin-right: 0; }
-  /* line 148, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 195, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action.active .inside {
     background: #5cbc51; }
 
 /* =spotlight
 ---------------------------------------------------------------------------- */
-/* line 157, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 204, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight .image {
-  display: inline-block;
-  background: #fff;
-  padding: 5px;
-  border: 1px solid #aaa;
   margin-bottom: 10px; }
+/* line 207, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.homeowner-spotlight p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #666; }
 
 /* =footer
 ---------------------------------------------------------------------------- */
-/* line 168, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 216, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 footer {
   margin-top: 30px;
   padding: 10px 0 50px;
   border-top: 1px solid #cccccc; }
-  /* line 173, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 221, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .address {
     float: left; }
-  /* line 176, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 224, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .contact {
     float: right; }
