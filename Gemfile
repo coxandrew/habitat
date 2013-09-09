@@ -10,3 +10,4 @@ gem 'bootstrap-sass', '~> 2.3.2',
 gem 'json', '~> 1.7.7'
 
 gem 'middleman-gh-pages'
+gem 'pry'

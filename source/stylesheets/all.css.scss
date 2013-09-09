@@ -31,6 +31,78 @@ header {
     }
   }
 }
+.masthead {
+  position: relative;
+  padding: 8px 0;
+}
+.headline {
+  font-family: Gill Sans, Arial, Sans-Serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: $medium_gray;
+  position: absolute;
+  bottom: 24px;
+  right: 10px;
+}
+nav {
+  margin: 0 -20px;
+  background: $habitat_blue;
+
+  ul {
+    margin: 0;
+    clear: left;
+    list-style-type: none;
+  }
+  li {
+    float: left;
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      display: block;
+      padding: 16px 30px;
+      border-left: 1px solid $habitat_blue;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: 1;
+      text-decoration: none;
+    }
+
+    &.active a,
+    a:hover {
+      background: $habitat_green;
+    }
+  }
+}
+
+/* =home
+---------------------------------------------------------------------------- */
+.main {
+  padding-top: 20px;
+}
+.call-to-action {
+  display: none;
+}
+.action-apply {
+  display: block;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 1.4;
+  font-weight: 200;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.2;
+  margin: 2rem 0 1rem;
+}
+
+/* =carousel
+---------------------------------------------------------------------------- */
 .rotating-image {
   height: 400px;
   background: #fff image-url("carousel-apply.jpg") no-repeat 50% 10%;
@@ -76,50 +148,16 @@ header {
       background: $habitat_green;
     }
   }
-
-}
-.nav {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin-bottom: 0;
-}
-.nav li {
-  float: left;
-
-  a:link,
-  a:visited,
-  a:hover,
-  a:active {
-    padding: 5px 12px;
-    font-size: 1.2rem;
-    line-height: 1;
-    color: $habitat_blue;
-  }
-}
-
-/* =home
----------------------------------------------------------------------------- */
-.main h1 {
-  margin: 40px 0 20px;
-  font-family: Gill Sans, Arial, Sans-Serif;
-  font-weight: 100;
-  font-size: 3.2rem;
-  color: $dark_gray;
-}
-.call-to-action {
-  display: none;
-}
-.action-apply {
-  display: block;
 }
 
 /* =spotlight
 ---------------------------------------------------------------------------- */
 .homeowner-spotlight {
   .image {
-    height: 240px;
-    background: #ddd;
+    display: inline-block;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #aaa;
     margin-bottom: 10px;
   }
 }

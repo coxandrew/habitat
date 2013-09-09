@@ -1,28 +1,38 @@
-<header class="container">
-  <h1 class="logo pull-left">
-    <a href="/">Habitat for Humanity Powhatan</a>
-  </h1>
-  <nav>
-    <ul class="nav pull-right">
-      <li class="active">
+<header class="container-fluid">
+
+  <div class="masthead container">
+    <h1 class="logo pull-left">
+      <a href="/">Habitat for Humanity Powhatan</a>
+    </h1>
+
+    <div class="headline">
+      It Takes a Village to Build a Habitat Home
+    </div>
+  </div>
+
+  <nav class="clearfix">
+    <ul class="container">
+      <li class="<%= nav_active('index') %>">
+        <%= link_to 'Home', '/' %>
+      <li class="<%= nav_active('apply') %>">
         <%= link_to 'Apply', '/apply.html' %>
       </li>
-      <li class="active">
+      <li class="<%= nav_active('donate') %>">
         <%= link_to 'Donate', '/donate.html' %>
       </li>
-      <li class="active">
+      <li class="<%= nav_active('volunteer') %>">
         <%= link_to 'Volunteer', '/volunteer.html' %>
       </li>
-      <li>
+      <li class="<%= nav_active('news') %>">
         <%= link_to 'News', '/news.html' %>
       </li>
-      <li>
+      <li class="<%= nav_active('families') %>">
         <%= link_to 'Families', '/families.html' %>
       </li>
-      <li>
+      <li class="<%= nav_active('about') %>">
         <%= link_to 'About', '/about.html' %>
       </li>
-      <li>
+      <li class="<%= nav_active('contact') %>">
         <%= link_to 'Contact', '/contact.html' %>
       </li>
     </ul>

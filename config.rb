@@ -76,3 +76,10 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+
+helpers do
+  def nav_active(page)
+    (current_page.path =~ /#{page}/) ? 'active' : ''
+  end
+end
