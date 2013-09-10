@@ -5,7 +5,13 @@ title: Habitat for Humanity - Powhatan
 <div class="row">
 
   <div class="span9">
-    <div class="rotating-image">
+    <div class="rotating-images">
+      <div class="rotating-image rotating-image-00">
+      </div>
+      <div class="rotating-image rotating-image-01">
+      </div>
+      <div class="rotating-image rotating-image-02">
+      </div>
     </div>
 
     <div class="carousel-actions">
@@ -98,33 +104,65 @@ title: Habitat for Humanity - Powhatan
 </div>
 
 <script>
+var photoPosition = 1;
+var rotationInterval = 3000;
+var photosPerAction = 3;
+
 $(document).ready(function () {
   initializeCarousel();
 });
 
+function log(msg) {
+  console.log(msg);
+}
+
 function initializeCarousel() {
   var carouselActions = $('.carousel-actions .action');
+  preloadImages('apply');
+  setTimeout(rotatePhoto, rotationInterval);
 
-  var actions = [
-    'apply',
-    'volunteer',
-    'donate'
-  ]
-  var images = [
-    '<%= image_path("carousel-apply.jpg") %>',
-    '<%= image_path("carousel-volunteer.jpg") %>',
-    '<%= image_path("carousel-donate.jpg") %>'
-  ]
   carouselActions.click(function() {
     carouselActions.removeClass('active');
     $(this).addClass('active');
     var selectedAction = $(this).attr('id').split('-')[1];
-    var actionIndex = actions.indexOf(selectedAction);
 
-    $('.rotating-image').css('background-image',
-      'url("' + images[actionIndex] + '")');
+    for (i = 0; i < 3; i++) {
+      $('.rotating-image-0' + i).css(
+        'background-image', 'url("images/carousel-' +
+          selectedAction + '-0' + i + '.jpg")'
+      );
+    }
     $('.call-to-action').hide();
     $('.call-to-action.action-' + selectedAction).show();
   });
+}
+
+function rotatePhoto() {
+  var newPhoto = $('.rotating-image-0' + photoPosition);
+  var oldPhoto = $('.rotating-image-0' + previousPosition(photoPosition));
+
+  newPhoto.css('z-index', 1);
+  oldPhoto.css('z-index', 2);
+  newPhoto.show();
+  oldPhoto.fadeOut(1500);
+
+  photoPosition = nextPosition(photoPosition);
+  setTimeout(rotatePhoto, rotationInterval);
+}
+
+function preloadImages(action) {
+  for (i = 1; i < 3; i++) {
+    $('.rotating-image-0' + i).css(
+      'background-image', 'url("images/carousel-' + action + '-0' + i + '.jpg")'
+    );
+  }
+}
+
+function nextPosition(position) {
+  return (position >= (photosPerAction - 1)) ? 0 : position + 1;
+}
+
+function previousPosition(position) {
+  return (position == 0) ? photosPerAction - 1 : position - 1;
 }
 </script>

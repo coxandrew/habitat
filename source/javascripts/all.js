@@ -1,1 +1,1 @@
-//= require_tree .
+//= require jquery-1.10.1.min

@@ -150,11 +150,27 @@ h3 {
 
 /* =carousel
 ---------------------------------------------------------------------------- */
-.rotating-image {
+.rotating-images {
+  position: relative;
   height: 400px;
-  background: #fff image-url("carousel-apply.jpg") no-repeat 50% 10%;
   border: 2px solid $habitat_green;
   border-bottom-width: 5px;
+}
+.rotating-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff image-url("carousel-apply-00.jpg") no-repeat 50% 10%;
+  background-size: cover;
+}
+.rotating-image-00 {
+  background-image: image-url("carousel-apply-00.jpg");
+}
+.rotating-image-01,
+.rotating-image-02 {
+  display: none;
 }
 .carousel-actions {
   margin-bottom: 10px;
