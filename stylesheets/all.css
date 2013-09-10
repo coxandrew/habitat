@@ -5973,53 +5973,72 @@ h3 {
 /* =carousel
 ---------------------------------------------------------------------------- */
 /* line 154, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
-.rotating-image {
+.rotating-images {
+  position: relative;
   height: 400px;
-  background: white url("../images/carousel-apply.jpg") no-repeat 50% 10%;
   border: 2px solid #5cbc51;
   border-bottom-width: 5px; }
 
 /* line 160, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.rotating-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white url("../images/carousel-apply-00.jpg") no-repeat 50% 10%;
+  background-size: cover; }
+
+/* line 169, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.rotating-image-00 {
+  background-image: url("../images/carousel-apply-00.jpg"); }
+
+/* line 173, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.rotating-image-01,
+.rotating-image-02 {
+  display: none; }
+
+/* line 176, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .carousel-actions {
   margin-bottom: 10px; }
-  /* line 163, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 179, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action {
     float: left;
     width: 233px;
     text-align: center;
     cursor: pointer; }
-    /* line 169, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 185, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .inside {
       margin-right: 1px;
       padding: 20px 0;
       background: #005f99;
       color: #fff; }
-    /* line 175, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 191, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .name {
       font-size: 1.6rem;
       margin-bottom: 5px;
       letter-spacing: 1px; }
-    /* line 180, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 196, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .caption {
       font-weight: 100;
       font-style: italic;
       letter-spacing: 1px; }
-  /* line 186, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 202, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action-volunteer {
     width: 234px; }
-  /* line 190, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 206, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action-donate .inside {
     margin-right: 0; }
-  /* line 195, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 211, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action.active .inside {
     background: #5cbc51; }
 
 /* =spotlight
 ---------------------------------------------------------------------------- */
-/* line 204, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 220, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight .image {
   margin-bottom: 10px; }
-/* line 207, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 223, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight p {
   font-size: 1rem;
   line-height: 1.4;
@@ -6027,14 +6046,14 @@ h3 {
 
 /* =footer
 ---------------------------------------------------------------------------- */
-/* line 216, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 232, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 footer {
   margin-top: 30px;
   padding: 10px 0 50px;
   border-top: 1px solid #cccccc; }
-  /* line 221, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 237, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .address {
     float: left; }
-  /* line 224, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 240, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .contact {
     float: right; }
