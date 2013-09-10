@@ -5864,9 +5864,9 @@ header {
 
 /* line 44, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .headline {
-  font-family: Gill Sans, Arial, Sans-Serif;
-  font-size: 2.5rem;
-  font-weight: 100;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 2.2rem;
+  font-weight: 200;
   color: #888888;
   position: absolute;
   bottom: 24px;
