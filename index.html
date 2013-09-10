@@ -171,23 +171,27 @@ function log(msg) {
 
 function initializeCarousel() {
   var carouselActions = $('.carousel-actions .action');
-  preloadImages('apply');
+  preloadImages();
+  loadActionPhotos('apply');
   setTimeout(rotatePhoto, rotationInterval);
 
   carouselActions.click(function() {
     carouselActions.removeClass('active');
     $(this).addClass('active');
     var selectedAction = $(this).attr('id').split('-')[1];
-
-    for (i = 0; i < 3; i++) {
-      $('.rotating-image-0' + i).css(
-        'background-image', 'url("images/carousel-' +
-          selectedAction + '-0' + i + '.jpg")'
-      );
-    }
+    loadActionPhotos(selectedAction);
     $('.call-to-action').hide();
     $('.call-to-action.action-' + selectedAction).show();
   });
+}
+
+function loadActionPhotos(action) {
+  for (i = 0; i < 3; i++) {
+    $('.rotating-image-0' + i).css(
+      'background-image', 'url("images/carousel-' +
+        action + '-0' + i + '.jpg")'
+    );
+  }
 }
 
 function rotatePhoto() {
@@ -203,11 +207,17 @@ function rotatePhoto() {
   setTimeout(rotatePhoto, rotationInterval);
 }
 
-function preloadImages(action) {
-  for (i = 1; i < 3; i++) {
-    $('.rotating-image-0' + i).css(
-      'background-image', 'url("images/carousel-' + action + '-0' + i + '.jpg")'
-    );
+function preloadImages() {
+  var preloadedImages = new Array();
+  for (i = 0; i < 3; i++) {
+    preloadedImages[i] = new Image();
+    preloadedImages[i].src = 'images/carousel-apply-0' + i + '.jpg';
+
+    preloadedImages[i + 3] = new Image();
+    preloadedImages[i + 3].src = 'images/carousel-donate-0' + i + '.jpg';
+
+    preloadedImages[i + 6] = new Image();
+    preloadedImages[i + 6].src = 'images/carousel-volunteer-0' + i + '.jpg';
   }
 }
 
