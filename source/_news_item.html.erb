@@ -1,0 +1,15 @@
+<li class="clearfix">
+  <% link_to '/news.html', class: 'news-thumbnail' do %>
+    <%= image_tag "news-thumbnails/#{image}" %>
+  <% end %>
+  <div class="details">
+    <h4>
+      <%= link_to title, '/news.html' %>
+    </h4>
+    <div class="byline">
+      <span class="author"><%= author %></span>
+      &middot;
+      <span class="date"><%= date %></span>
+    </div>
+  </div>
+</li>
