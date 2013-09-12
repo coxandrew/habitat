@@ -5,14 +5,18 @@
 @import "colors";
 
 $serif: Georgia, serif;
+$sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* =general
 ---------------------------------------------------------------------------- */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $sans_serif;
 }
 p {
-  font-family: $serif;
+  margin: 1rem 0;
+  font-family: $sans_serif;
+  font-size: 1rem;
+  color: #555;
 }
 
 /* =header
