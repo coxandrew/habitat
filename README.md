@@ -45,3 +45,9 @@ To edit common content, you just need to change the variables at the top of each
     ---
     title: Powhatan - Habitat for Humanity
     ---
+
+## News Articles
+
+Create a new article:
+
+    $ middleman article ARTICLE_TITLE

@@ -85,6 +85,14 @@ title: Habitat for Humanity - Powhatan
     <h3>News</h3>
 
     <ul>
+      <% page_articles.each do |article| %>
+        <li>
+          <%= link_to article.title, article.url %>
+        </li>
+      <% end %>
+    </ul>
+
+    <ul>
       <%= partial :news_item, locals: {
           title: 'HABITAT POWHATAN TO HOST ITS ANNUAL, GOLF FUNDRAISER TOURNAMENT ON OCTOBER 11, 2013',
           author: 'Ken Cox',
