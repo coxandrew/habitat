@@ -102,7 +102,7 @@ title: Habitat for Humanity - Powhatan
       %>
 
       <%= partial :news_item, locals: {
-          title: 'ROTARY CLUB OF POWHATAN DONATES $2000 TO HABITAT FOR HUMANITY - POWHATAN',
+          title: 'ROTARY CLUB OF POWHATAN DONATES $2000 TO HABITAT POWHATAN',
           author: 'Don Whitley',
           image: '2013-07-25-rotary-donation.jpg',
           date: 'July 25, 2013'
@@ -130,13 +130,14 @@ title: Habitat for Humanity - Powhatan
   <div class="homeowner-spotlight span6">
     <h3>Homeowner Spotlight</h3>
 
-    <div class="image">
-      <%= image_tag 'spotlight-nicely.jpg', class: 'img-polaroid' %>
-    </div>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <% link_to('/families.html') do %>
+      <div class="image">
+        <%= image_tag 'spotlight-nicely.jpg', class: 'img-polaroid' %>
+      </div>
+      <p>
+        Read about the Nicely family’s Habitat story
+      </p>
+    <% end %>
   </div>
 </div>
 
