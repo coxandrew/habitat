@@ -71,7 +71,9 @@ activate :blog do |blog|
   # blog.day_link = ":year/:month/:day.html"
   # blog.default_extension = ".markdown"
 
-  # blog.prefix = "/news"
+  blog.default_extension = ".md"
+  blog.prefix = "news"
+  blog.sources = ":year-:month-:day-:title.html"
   blog.permalink = ":year/:month/:day/:title.html"
 
   # blog.paginate = true

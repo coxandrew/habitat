@@ -1,15 +1,15 @@
 <li class="clearfix">
-  <% link_to '/news.html', class: 'news-thumbnail' do %>
-    <%= image_tag "news-thumbnails/#{image}" %>
+  <% link_to url, class: 'news-thumbnail' do %>
+    <%= image_tag "news-thumbnails/#{article.path.gsub(/news\//, '').gsub(/\.html$/, '.jpg')}" %>
   <% end %>
   <div class="details">
     <h4>
-      <%= link_to title, '/news.html' %>
+      <%= link_to title.upcase, url %>
     </h4>
     <div class="byline">
       <span class="author"><%= author %></span>
       &middot;
-      <span class="date"><%= date %></span>
+      <span class="date"><%= date.strftime('%B %e %Y') %></span>
     </div>
   </div>
 </li>
