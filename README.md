@@ -38,6 +38,10 @@ Until launch, you can preview the published site here:
 
 http://coxandrew.github.io/habitat/
 
+## Build the site cleanly
+
+    $ middleman build --clean
+
 ## Editing
 
 To edit common content, you just need to change the variables at the top of each HTML template:
@@ -45,3 +49,25 @@ To edit common content, you just need to change the variables at the top of each
     ---
     title: Powhatan - Habitat for Humanity
     ---
+
+## News Articles
+
+Create a new article:
+
+    $ middleman article ARTICLE_TITLE
+
+This will create a file in `source/news/*.html.md`
+
+Edit the title in the article's frontmatter:
+
+    ---
+    title: Habitat Powhatan to Host its Annual Golf Fundraiser Tournament on October 11, 2013
+    author: Ken Cox
+    ---
+
+The article's date will be grabbed from the filename.
+
+The article's photo thumbnail must be a jpg with the same name as the file, e.g.:
+
+    2013-09-14-golf-fundraiser.jpg
+
