@@ -75,6 +75,7 @@ activate :blog do |blog|
   blog.prefix = "news"
   blog.sources = ":year-:month-:day-:title.html"
   blog.permalink = ":year/:month/:day/:title.html"
+  blog.layout = "news-layout"
 
   # blog.paginate = true
   # blog.per_page = 10
