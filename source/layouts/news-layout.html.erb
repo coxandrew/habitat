@@ -21,6 +21,11 @@
         </div>
         <div class="span9">
           <h2><%= current_article.title %></h2>
+          <div class="byline">
+            <span class="date"><%= current_article.date.strftime('%B %e %Y') %></span>
+            &middot;
+            <span class="author"><%= current_article.data.author %></span>
+          </div>
 
           <%= yield %>
         </div>

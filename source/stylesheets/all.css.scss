@@ -187,12 +187,6 @@ h3 {
       color: #000;
       text-decoration: underline;
     }
-    .byline {
-      color: #aaa;
-      font-family: $serif;
-      font-size: 0.8rem;
-      letter-spacing: 1px;
-    }
   }
 }
 .news .pull-left {
@@ -200,6 +194,12 @@ h3 {
 }
 .news .pull-right {
   margin-left: 15px;
+}
+.byline {
+  color: #888;
+  font-family: $serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
 /* =carousel
