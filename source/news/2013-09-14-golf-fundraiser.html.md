@@ -3,8 +3,6 @@ title: Annual Golf Fundraiser Tournament to be held October 11, 2013
 author: Ken Cox
 ---
 
-## Annual Golf Fundraiser Tournament to be held October 11, 2013
-
 <img src="http://placekitten.com/g/700/500" class="img-polaroid" />
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

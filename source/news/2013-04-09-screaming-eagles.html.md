@@ -1,5 +1,6 @@
 ---
-title: screaming-eagles
+title: Screaming Eagles Raise Over $6000 for Habitat Powhatan
+date: 2013-04-09 00:00 UTC
 author: Ken Cox
 ---
 

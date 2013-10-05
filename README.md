@@ -44,7 +44,7 @@ http://coxandrew.github.io/habitat/
 
 ## Editing
 
-To edit common content, you just need to change the variables at the top of each HTML template:
+To edit metadata about the page, like the title, you just need to change the variables at the top of each HTML template:
 
     ---
     title: Powhatan - Habitat for Humanity
@@ -52,22 +52,20 @@ To edit common content, you just need to change the variables at the top of each
 
 ## News Articles
 
-Create a new article:
+Create a new article using a "slug" for the title. The slug will be used as part of the URL and the thumbnail's image name. It should be in all lowercase, separated by hyphens. For example, if you create an article for the Screaming Eagles raising money for Habitat:
 
-    $ middleman article ARTICLE_TITLE
+    $ middleman article screaming-eagles -d 2013-09-04
 
-This will create a file in `source/news/*.html.md`
+This would create a file named in `source/news/2013-09-04-screaming-eagles.html.md`.
 
-Edit the title in the article's frontmatter:
+Open up the file and edit the title and add the author to the metadata section at the top:
 
     ---
-    title: Habitat Powhatan to Host its Annual Golf Fundraiser Tournament on October 11, 2013
+    title: Screaming Eagles Raise Over $6000 for Habitat Powhatan
+    date: 2013-04-09 00:00 UTC
     author: Ken Cox
     ---
 
-The article's date will be grabbed from the filename.
-
 The article's photo thumbnail must be a jpg with the same name as the file, e.g.:
 
-    2013-09-14-golf-fundraiser.jpg
-
+    2013-10-03-article-title-slug.jpg
