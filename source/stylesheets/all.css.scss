@@ -1,7 +1,7 @@
-/*
-*= require bootstrap
-*/
+// $gridGutterWidth: 36px;
+// $gridColumnWidth: 46px;
 
+@import "bootstrap";
 @import "colors";
 
 $serif: Georgia, serif;
@@ -200,6 +200,32 @@ h3 {
   font-family: $serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
+}
+aside {
+  h2 {
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 200;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
+  }
+  ul {
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+
+    a {
+      color: #555;
+    }
+
+    span.date {
+      color: #888;
+    }
+  }
 }
 
 /* =carousel
