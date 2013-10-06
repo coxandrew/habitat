@@ -53,9 +53,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, autolink: true, smartypants: true
+activate :relative_assets
+set :relative_links, true
 
+set :markdown_engine, :redcarpet
+set :markdown, layout_engine: :erb, fenced_code_blocks: true, autolink: true, smartypants: true
 
 # Using middleman-blog: http://middlemanapp.com/blogging/
 activate :blog do |blog|
@@ -71,7 +73,7 @@ activate :blog do |blog|
   # blog.day_link = ":year/:month/:day.html"
   # blog.default_extension = ".markdown"
 
-  blog.default_extension = ".md"
+  blog.default_extension = ".md.erb"
   blog.prefix = "news"
   blog.sources = ":year-:month-:day-:title.html"
   blog.permalink = ":year/:month/:day/:title.html"
