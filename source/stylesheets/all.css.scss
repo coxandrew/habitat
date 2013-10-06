@@ -12,12 +12,14 @@ $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 body {
   font-family: $sans_serif;
 }
-p {
-  color: #555;
-  margin: 1rem 0;
-  font-family: $sans_serif;
+p, li {
   font-size: 1rem;
+  font-family: $sans_serif;
   line-height: 1.4;
+  color: #555;
+}
+p {
+  margin: 1rem 0;
 }
 
 /* =header
@@ -202,11 +204,13 @@ h3 {
   letter-spacing: 1px;
 }
 aside {
+  padding-right: 15px;
+
   h2 {
+    font-size: 0.9rem;
+    font-weight: 200;
     text-transform: uppercase;
     color: #888;
-    font-weight: 200;
-    font-size: 1rem;
     letter-spacing: 1px;
     border-bottom: 1px solid #ccc;
   }
@@ -216,7 +220,8 @@ aside {
   }
   li {
     margin: 0.5rem 0;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
 
     a {
       color: #555;
