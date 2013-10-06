@@ -69,3 +69,15 @@ Open up the file and edit the title and add the author to the metadata section a
 The article's photo thumbnail must be a jpg with the same name as the file, e.g.:
 
     2013-10-03-article-title-slug.jpg
+
+### Adding news images
+
+Add the image to `build/images/news`
+
+Build the code to copy the image to the source directory:
+
+    $ middleman build
+
+Add the image to your article as a regular HTML `img` tag:
+
+    <img src="/images/news/screaming-eagles.jpg" class="img-polaroid" />

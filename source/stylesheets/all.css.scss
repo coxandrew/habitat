@@ -157,6 +157,11 @@ h3 {
 
 /* =news
 ---------------------------------------------------------------------------- */
+body.news {
+  h2 {
+    margin-bottom: 0;
+  }
+}
 .news-headlines ul {
   list-style-type: none;
   margin: -10px 0 0;
