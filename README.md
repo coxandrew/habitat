@@ -72,12 +72,17 @@ The article's photo thumbnail must be a jpg with the same name as the file, e.g.
 
 ### Adding news images
 
-Add the image to `build/images/news`
+Add the image to `source/images/news`
 
 Build the code to copy the image to the source directory:
 
     $ middleman build
 
-Add the image to your article as a regular HTML `img` tag:
+Add the image to your article with an `image_tag` helper:
 
-    <img src="/images/news/screaming-eagles.jpg" class="img-polaroid" />
+    <div class="image">
+      <%= image_tag "news/screaming-eagles.jpg", class: "img-polaroid" %>
+      <div class="caption">
+        The Screaming Eagles present a check to Habitat President Don Whitley.
+      </div>
+    </div>

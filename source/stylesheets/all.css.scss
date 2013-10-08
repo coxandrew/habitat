@@ -15,8 +15,8 @@ body {
 p, li {
   font-size: 1rem;
   font-family: $sans_serif;
-  line-height: 1.4;
-  color: #555;
+  line-height: 1.5;
+  color: #666;
 }
 p {
   margin: 1rem 0;
@@ -238,10 +238,14 @@ aside {
   }
 }
 .image {
+  img {
+    max-width: 690px;
+  }
   .caption {
     color: #888;
-    font-size: 0.8rem;
+    font-family: $serif;
     margin-top: 0.25rem;
+    font-size: 0.9rem;
   }
 }
 

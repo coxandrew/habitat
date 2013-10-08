@@ -1,0 +1,11 @@
+<% caption ||= "" %>
+<% float ||= "" %>
+
+<div class="image<%= " pull-#{float}" if float.present? %>">
+  <%= image_tag "news/#{image}", class: "img-polaroid" %>
+  <% if caption.present? %>
+    <div class="caption">
+      <%= caption %>
+    </div>
+  <% end %>
+</div>
