@@ -56,6 +56,23 @@ header {
   bottom: 24px;
   right: 10px;
 }
+.social-links {
+  list-style-type: none;
+  position: absolute;
+  top: 26px;
+  right: 0;
+
+  li {
+    float: left;
+
+    a {
+      padding: 0 5px;
+    }
+    img {
+      height: 36px;
+    }
+  }
+}
 nav {
   background: $habitat_blue;
 
