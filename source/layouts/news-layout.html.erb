@@ -32,12 +32,7 @@
 
         <div class="span9">
           <% if current_article.present? %>
-            <h2><%= current_article.title %></h2>
-            <div class="byline">
-              <span class="date"><%= current_article.date.strftime('%B %e %Y') %></span>
-              &middot;
-              <span class="author"><%= current_article.data.author %></span>
-            </div>
+            <%= partial :news_title, locals: { current_article: current_article } %>
           <% end %>
 
           <%= yield %>
