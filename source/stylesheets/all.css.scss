@@ -105,6 +105,34 @@ nav {
   }
 }
 
+/* =sidebar
+---------------------------------------------------------------------------- */
+.sidebar {
+  list-style-type: none;
+  li {
+    margin: 5px 0;
+  }
+
+  a {
+    display: block;
+    font-size: 1rem;
+    padding: 5px 8px;
+    border-radius: 5px;
+
+    &:hover {
+      background: #ddd;
+      color: #000;
+      text-decoration: none;
+    }
+  }
+  .active {
+    a {
+      background: $habitat_green;
+      color: #fff;
+    }
+  }
+}
+
 /* =home
 ---------------------------------------------------------------------------- */
 .main {
