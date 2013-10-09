@@ -355,6 +355,20 @@ aside {
   }
 }
 
+/* =contact
+---------------------------------------------------------------------------- */
+.contact-info {
+  float: left;
+  margin-left: 20px;
+
+  .contact {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    color: #555;
+  }
+}
+
 /* =footer
 ---------------------------------------------------------------------------- */
 footer {
