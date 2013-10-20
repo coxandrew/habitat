@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <%= partial "head" %>
+
+  <body class="<%= page_classes %>">
+    <%= partial "header" %>
+
+    <div class="main container">
+      <div class="row">
+        <div class="span3">
+          <aside>
+            <ul class="sidebar">
+              <li class="<%= sidebar_active('about') %>">
+                <%= link_to 'About', '/about.html' %>
+              </li>
+              <li class="<%= sidebar_active('board_of_directors') %>">
+                <%= link_to 'Board of Directors', '/about/board_of_directors.html' %>
+              </li>
+              <li class="<%= sidebar_active('myths_and_facts') %>">
+                <%= link_to 'Myths and Facts', '/about/myths_and_facts.html' %>
+              </li>
+              <li class="<%= sidebar_active('history') %>">
+                <%= link_to 'History of Habitat', '/about/history.html' %>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="span9">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+    <%= partial "footer" %>
+  </body>
+</html>
