@@ -112,4 +112,9 @@ helpers do
   def nav_active(page)
     (current_page.path =~ /#{page}/) ? 'active' : ''
   end
+
+  def sidebar_active(sidebar_link)
+    return 'active' if sidebar_link == current_page.data.page || current_page.path =~ /#{sidebar_link}\.html$/
+    return ''
+  end
 end
