@@ -70,13 +70,13 @@ title: Habitat for Humanity - Powhatan
       <%= link_to 'Donate Now', '/donate.html', class: 'btn btn-success btn-large btn-block' %>
     </div>
 
-    <a href="/apply.html" class="critical-home-repairs">
+    <% link_to '/apply.html', class: 'critical-home-repairs' do %>
       <h3>Critical Repair</h3>
 
       <p>
         We perform critical home repairs for homeowners in need. Do you qualify?
       </p>
-    </a>
+    <% end %>
   </div>
 </div>
 
