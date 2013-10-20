@@ -385,9 +385,11 @@ aside {
 
 /* =contact
 ---------------------------------------------------------------------------- */
+.contact-photo {
+  margin-right: 20px;
+}
 .contact-info {
   float: left;
-  margin-left: 20px;
 
   .contact {
     margin-bottom: 20px;
