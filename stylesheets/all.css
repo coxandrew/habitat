@@ -6193,10 +6193,13 @@ aside {
 /* =contact
 ---------------------------------------------------------------------------- */
 /* line 388, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.contact-photo {
+  margin-right: 20px; }
+
+/* line 391, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .contact-info {
-  float: left;
-  margin-left: 20px; }
-  /* line 392, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  float: left; }
+  /* line 394, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .contact-info .contact {
     margin-bottom: 20px;
     font-size: 1.2rem;
@@ -6205,14 +6208,14 @@ aside {
 
 /* =footer
 ---------------------------------------------------------------------------- */
-/* line 402, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 404, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 footer {
   margin-top: 30px;
   padding: 10px 0 50px;
   border-top: 1px solid #cccccc; }
-  /* line 407, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 409, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .address {
     float: left; }
-  /* line 410, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 412, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .contact {
     float: right; }
