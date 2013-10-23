@@ -294,6 +294,17 @@ aside {
     font-size: 0.8rem;
   }
 }
+.pull-quote {
+  margin: 20px 0;
+  padding: 20px 0;
+  border: 4px solid $habitat_blue;
+  border-width: 2px 0;
+  font-family: $serif;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: $medium_gray;
+
+}
 
 /* =carousel
 ---------------------------------------------------------------------------- */
