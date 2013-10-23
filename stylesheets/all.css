@@ -6246,16 +6246,26 @@ aside {
     line-height: 1.3;
     color: #555; }
 
-/* =footer
+/* =images
 ---------------------------------------------------------------------------- */
 /* line 446, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.image.pull-right {
+  margin-left: 20px; }
+
+/* line 449, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.image.pull-left {
+  margin-right: 20px; }
+
+/* =footer
+---------------------------------------------------------------------------- */
+/* line 455, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 footer {
   margin-top: 30px;
   padding: 10px 0 50px;
   border-top: 1px solid #cccccc; }
-  /* line 451, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 460, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .address {
     float: left; }
-  /* line 454, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 463, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .contact {
     float: right; }
