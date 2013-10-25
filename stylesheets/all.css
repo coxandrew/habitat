@@ -6098,14 +6098,15 @@ aside {
 .image {
   margin: 1rem 0; }
   /* line 287, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
-  .image img {
-    max-width: 690px; }
-  /* line 290, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
   .image .caption {
     color: #888;
     font-family: Georgia, serif;
     margin-top: 0.25rem;
     font-size: 0.8rem; }
+
+/* line 294, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.span9 img {
+  max-width: 690px; }
 
 /* line 297, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .pull-quote {
