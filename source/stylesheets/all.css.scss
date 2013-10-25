@@ -284,15 +284,15 @@ aside {
 .image {
   margin: 1rem 0;
 
-  img {
-    max-width: 690px;
-  }
   .caption {
     color: #888;
     font-family: $serif;
     margin-top: 0.25rem;
     font-size: 0.8rem;
   }
+}
+.span9 img {
+  max-width: 690px;
 }
 .pull-quote {
   margin: 20px 0;
