@@ -85,7 +85,7 @@ title: Habitat for Humanity - Powhatan
     <h3>News</h3>
 
     <ul>
-      <% page_articles.each do |article| %>
+      <% page_articles[0..4].each do |article| %>
         <%= partial :news_item, locals: {
             article: article,
             title: article.title,
