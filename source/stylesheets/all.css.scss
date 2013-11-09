@@ -283,13 +283,6 @@ aside {
 }
 .image {
   margin: 1rem 0;
-
-  .caption {
-    color: #888;
-    font-family: $serif;
-    margin-top: 0.25rem;
-    font-size: 0.8rem;
-  }
 }
 .span9 img {
   max-width: 690px;
@@ -460,6 +453,21 @@ aside {
 }
 .image.pull-left {
   margin-right: 20px;
+}
+.img-polaroid {
+  border: 0;
+  box-shadow: none;
+}
+.image {
+  border:  1px solid #ccc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  .caption {
+    color: #888;
+    font-family: $serif;
+    margin: 5px 5px;
+    font-size: 0.95rem;
+  }
 }
 
 /* =footer
