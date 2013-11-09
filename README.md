@@ -52,11 +52,11 @@ To edit metadata about the page, like the title, you just need to change the var
 
 ## News Articles
 
-Create a new article using a "slug" for the title. The slug will be used as part of the URL and the thumbnail's image name. It should be in all lowercase, separated by hyphens. For example, if you create an article for the Screaming Eagles raising money for Habitat:
+Create a new article using a "slug" for the title. The slug will be used as part of the URL and the thumbnail's image name. It should be in all lowercase, separated by hyphens. For example, if you create an article for the Screaming Eagles raising money for Habitat, switch to your Terminal (iTerm) and type the command:
 
     $ middleman article screaming-eagles -d 2013-09-04
 
-This would create a file named in `source/news/2013-09-04-screaming-eagles.html.md`.
+This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
 Open up the file and edit the title and add the author to the metadata section at the top:
 
@@ -66,9 +66,9 @@ Open up the file and edit the title and add the author to the metadata section a
     author: Ken Cox
     ---
 
-The article's photo thumbnail must be a jpg with the same name as the file, e.g.:
+Create a 90x60 jpg thumbnail with the same name as the file, e.g.:
 
-    2013-10-03-article-title-slug.jpg
+    2013-09-04-screaming-eagles.jpg
 
 ### Adding news images
 
