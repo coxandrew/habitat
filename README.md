@@ -42,7 +42,7 @@ Add any new files by name (for example, add all "Untracked files" in the `source
 
     $ git add source
 
-Commit changes with a friendly message:
+Commit changes with a friendly personal note of what I changed:
 
     $ git commit -m "Updating the news section"
 
@@ -54,6 +54,15 @@ Make sure any new "Untracked files" are removed or moved to a safe place:
     # some-temporary-file.txt
 
     $ rm some-temporary-file.txt
+
+When the directory is clean, you should see a message like this:
+
+    (master|*) $ git status
+    # On branch master
+    # Your branch is ahead of 'origin/master' by 3 commits.
+    #   (use "git push" to publish your local commits)
+    #
+    nothing to commit, working directory clean
 
 Push and publish changes to the site:
 
