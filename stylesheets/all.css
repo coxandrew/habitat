@@ -6067,15 +6067,16 @@ body.news h2 {
 
 /* line 253, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .byline {
+  margin-bottom: 1rem;
   color: #888;
   font-family: Georgia, serif;
   font-size: 0.8rem;
   letter-spacing: 1px; }
 
-/* line 259, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 260, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 aside {
   padding-right: 15px; }
-  /* line 262, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 263, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   aside h2 {
     font-size: 0.9rem;
     font-weight: 200;
@@ -6083,31 +6084,31 @@ aside {
     color: #888;
     letter-spacing: 1px;
     border-bottom: 1px solid #ccc; }
-  /* line 270, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 271, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   aside ul {
     margin: 0;
     list-style-type: none; }
-  /* line 274, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 275, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   aside li {
     margin: 0.5rem 0;
     font-size: 0.75rem;
     line-height: 1.4; }
-    /* line 279, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 280, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     aside li a {
       color: #555; }
-    /* line 283, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 284, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     aside li span.date {
       color: #888; }
 
-/* line 288, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 289, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .image {
   margin: 1rem 0; }
 
-/* line 291, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 292, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .span9 img {
   max-width: 690px; }
 
-/* line 294, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 295, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .pull-quote {
   margin: 20px 0;
   padding: 20px 0;
@@ -6121,14 +6122,14 @@ aside {
 
 /* =carousel
 ---------------------------------------------------------------------------- */
-/* line 309, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 310, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-images {
   position: relative;
   height: 400px;
   border: 2px solid #5cbc51;
   border-bottom-width: 5px; }
 
-/* line 315, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 316, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-image {
   position: absolute;
   top: 0;
@@ -6138,62 +6139,62 @@ aside {
   background: white url("../images/carousel-apply-00.jpg") no-repeat 50% 10%;
   background-size: cover; }
 
-/* line 324, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 325, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-image-00 {
   background-image: url("../images/carousel-apply-00.jpg"); }
 
-/* line 328, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 329, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-image-01,
 .rotating-image-02 {
   display: none; }
 
-/* line 331, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 332, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .carousel-actions {
   margin-bottom: 10px; }
-  /* line 334, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 335, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action {
     float: left;
     width: 233px;
     text-align: center;
     cursor: pointer; }
-    /* line 340, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 341, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .inside {
       margin-right: 1px;
       padding: 20px 0;
       background: #005f99;
       color: #fff; }
-    /* line 346, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 347, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .name {
       font-size: 1.6rem;
       margin-bottom: 5px;
       letter-spacing: 1px; }
-    /* line 351, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 352, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .carousel-actions .action .caption {
       font-weight: 100;
       font-style: italic;
       letter-spacing: 1px; }
-  /* line 357, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 358, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action-volunteer {
     width: 234px; }
-  /* line 361, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 362, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action-donate .inside {
     margin-right: 0; }
-  /* line 366, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 367, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .carousel-actions .action.active .inside {
     background: #5cbc51; }
 
 /* =spotlight
 ---------------------------------------------------------------------------- */
-/* line 375, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 376, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight .image {
   margin-bottom: 5px; }
-/* line 378, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 379, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight p {
   margin: 0.5rem 0;
   font-size: 1rem;
   line-height: 1.4;
   color: #666; }
-/* line 387, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 388, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight a:link,
 .homeowner-spotlight a:visited,
 .homeowner-spotlight a:hover,
@@ -6201,57 +6202,57 @@ aside {
   text-transform: uppercase;
   text-decoration: none;
   color: #333; }
-/* line 392, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 393, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight a:hover {
   text-decoration: underline; }
 
 /* =about
 ---------------------------------------------------------------------------- */
-/* line 399, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 400, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .board {
   border-collapse: separate;
   border-spacing: 1px;
   background: #fff;
   border: 1px solid #ccc; }
-  /* line 405, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 406, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .board th, .board td {
     padding: 5px 20px 5px 10px;
     vertical-align: top; }
-  /* line 409, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 410, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .board th {
     font-weight: normal;
     background: #afc4de;
     text-align: left;
     white-space: nowrap; }
-  /* line 415, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 416, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .board td {
     background: #efefef; }
-  /* line 419, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 420, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .board tr:hover th, .board tr:hover td {
     background: #ffc; }
 
-/* line 424, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 425, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .myths {
   list-style-type: none;
   margin: 1rem 0 0; }
-  /* line 428, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 429, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .myths li {
     margin: 0 0 2rem; }
-  /* line 431, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 432, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .myths .myth {
     font-weight: bold;
     margin-bottom: 0.5rem; }
 
 /* =contact
 ---------------------------------------------------------------------------- */
-/* line 439, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 440, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .contact-photo {
   margin-right: 20px; }
 
-/* line 442, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 443, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .contact-info {
   float: left; }
-  /* line 445, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 446, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .contact-info .contact {
     margin-bottom: 20px;
     font-size: 1.2rem;
@@ -6260,24 +6261,24 @@ aside {
 
 /* =images
 ---------------------------------------------------------------------------- */
-/* line 455, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 456, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .image.pull-right {
   margin-left: 20px; }
 
-/* line 458, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 459, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .image.pull-left {
   margin-right: 20px; }
 
-/* line 461, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 462, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .img-polaroid {
   border: 0;
   box-shadow: none; }
 
-/* line 465, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 466, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .image {
   border: 1px solid #ccc;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-  /* line 469, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 470, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .image .caption {
     color: #888;
     font-family: Georgia, serif;
@@ -6286,20 +6287,20 @@ aside {
 
 /* =footer
 ---------------------------------------------------------------------------- */
-/* line 479, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 480, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 footer {
   margin-top: 30px;
   padding: 10px 0 50px;
   border-top: 1px solid #cccccc; }
-  /* line 484, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 485, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .address {
     float: left; }
-  /* line 487, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 488, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .contact {
     float: right; }
 
 /* =apply
 ---------------------------------------------------------------------------- */
-/* line 494, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 495, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-application {
   margin-bottom: 1rem; }
