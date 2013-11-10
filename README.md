@@ -30,7 +30,33 @@ Start the middleman server:
 
 To build and deploy a static version of the site, you must first commit and push any changes and then `rake publish`:
 
-    $ git commit -am "Updating the news section"
+First check the status to see what files you've edited:
+
+    $ git status
+
+Add the files you want to commit (that are already under version control):
+
+    $ git add -u
+
+Add any new files by name (for example, add all "Untracked files" in the `source` directory):
+
+    $ git add source
+
+Commit changes with a friendly message:
+
+    $ git commit -m "Updating the news section"
+
+Make sure any new "Untracked files" are removed or moved to a safe place:
+
+    # Untracked files:
+    #  (use "git add <file>..." to include in what will be committed)
+    # 
+    # some-temporary-file.txt
+
+    $ rm some-temporary-file.txt
+
+Push and publish changes to the site:
+
     $ git push
     $ rake publish
 
@@ -52,23 +78,30 @@ To edit metadata about the page, like the title, you just need to change the var
 
 ## News Articles
 
-Create a new article using a "slug" for the title. The slug will be used as part of the URL and the thumbnail's image name. It should be in all lowercase, separated by hyphens. For example, if you create an article for the Screaming Eagles raising money for Habitat, switch to your Terminal (iTerm) and type the command:
+Create a new article using a "slug" for the title. The slug will be used as part of the URL and the thumbnail's image name. It should be in all lowercase, separated by hyphens. For example, if you create an article for the Screaming Eagles raising money for Habitat, switch to your Terminal (iTerm).
+
+In iTerm (your terminal), type:
 
     $ middleman article screaming-eagles -d 2013-09-04
 
 This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
-Open up the file and edit the title and add the author to the metadata section at the top:
+In Sublime Text 2 (your text editor), open the file using Cmd+T and typing the name of the slug ('screaming-eagles' in this example).
+
+Now, the file should be open in your text editor. Edit the title and add the author to the metadata section at the top:
 
     ---
     title: Screaming Eagles Raise Over $6000 for Habitat Powhatan
     date: 2013-04-09 00:00 UTC
     author: Ken Cox
+    tags:
     ---
 
-Create a 90x60 jpg thumbnail with the same name as the file, e.g.:
+Create a 90x60 jpg thumbnail with the same name as the file, e.g.
 
     2013-09-04-screaming-eagles.jpg
+
+Save the file in `habitat/source/images/news-thumbnails`.
 
 ### Adding news images
 
