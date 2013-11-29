@@ -115,7 +115,7 @@ In iTerm (your terminal), type:
 
 This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
-In Sublime Text 2 (your text editor), open the file using Cmd+T and typing the name of the slug ('screaming-eagles' in this example).
+In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on i ('screaming-eagles' in this example).
 
 Now, the file should be open in your text editor. Edit the title and add the author to the metadata section at the top:
 
@@ -134,17 +134,12 @@ Save the file in `habitat/source/images/news-thumbnails`.
 
 ### Adding news images
 
-Add the image to `source/images/news`
+Save the image to `source/images/news`
 
-Build the code to copy the image to the source directory:
+Add the image to your article with a news_image partial:
 
-    $ middleman build
-
-Add the image to your article with an `image_tag` helper:
-
-    <div class="image">
-      <%= image_tag "news/screaming-eagles.jpg", class: "img-polaroid" %>
-      <div class="caption">
-        The Screaming Eagles present a check to Habitat President Don Whitley.
-      </div>
-    </div>
+    <%= partial "news_image", locals: {
+        image: "screaming-eagles.jpg",
+        caption: "The Screaming Eagles present a check to Habitat President Don Whitley."
+      } %>
+    
