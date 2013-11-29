@@ -18,7 +18,9 @@ Open a new tab in iTerm and start up the preview webserver:
 
 Once it tells you the site is up, click on the link: [http://0.0.0.0:4567](http://0.0.0.0:4567) to preview the Habitat site in your browser.
 
-Open *Sublime Text* to start editing!
+Open *Sublime Text* (if it's not already open) to start editing!
+
+    $ subl .
 
 ## Getting Started
 
