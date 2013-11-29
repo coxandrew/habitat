@@ -1,16 +1,26 @@
-## TL;DR:
+## Quickstart
 
-Run the site locally:
+Go to your project:
+
+    $ cd Projects/habitat
+
+Do a `git pull` to make sure you have the latest updates from GitHub:
+
+    $ git pull
+
+Open a new tab in iTerm and start up the preview webserver:
 
     $ rake preview
 
-And then visit: [http://127.0.0.1:4567](http://127.0.0.1:4567) in your browser.
+Once it tells you the site is up, click on the link: [http://0.0.0.0:4567](http://0.0.0.0:4567) to preview the Habitat site in your browser.
+
+Open *Sublime Text* to start editing!
 
 ## Getting Started
 
 This site is built using [Middleman](http://middlemanapp.com/). If you have a working Ruby installation (preferably using RVM), you should be able to follow along with the Quickstart instructions.
 
-### Quickstart
+### Installation
 
 #### Checkout and install dependencies
 
