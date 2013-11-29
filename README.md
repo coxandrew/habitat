@@ -8,6 +8,10 @@ Do a `git pull` to make sure you have the latest updates from GitHub:
 
     $ git pull
 
+Do a `git log` if you're interested in seeing the latest commits (hit `q` to quit viewing the log):
+
+    $ git log
+
 Open a new tab in iTerm and start up the preview webserver:
 
     $ rake preview
