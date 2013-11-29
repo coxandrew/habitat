@@ -34,6 +34,10 @@ First check the status to see what files you've edited:
 
     $ git status
 
+To double check what you've changed before adding:
+
+    $ git diff
+
 Add the files you want to commit (that are already under version control):
 
     $ git add -u
