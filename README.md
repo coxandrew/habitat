@@ -1,10 +1,10 @@
 ## Quickstart
 
-Go to your project:
+Go to your project (paths in the terminal are relative, so if you're in a different directory and this doesn't work, you can always do: `cd ~/Projects/habitat`):
 
     $ cd Projects/habitat
 
-Do a `git pull` to make sure you have the latest updates from GitHub:
+*Always* do a `git pull` before starting to work on the site to make sure you have the latest updates from GitHub:
 
     $ git pull
 
@@ -18,7 +18,7 @@ Open a new tab in iTerm and start up the preview webserver:
 
 Once it tells you the site is up, click on the link: [http://0.0.0.0:4567](http://0.0.0.0:4567) to preview the Habitat site in your browser.
 
-Open *Sublime Text* (if it's not already open) to start editing!
+Open *Sublime Text* (if it's not already open) to start editing:
 
     $ subl .
 
@@ -36,12 +36,6 @@ This site is built using [Middleman](http://middlemanapp.com/). If you have a wo
     $ cd habitat
     $ bundle install --binstubs
 
-#### Run the site locally
-
-Start the middleman server:
-
-    $ rake preview
-
 ### Publish the site
 
 To build and deploy a static version of the site, you must first commit and push any changes and then `rake publish`:
@@ -50,7 +44,7 @@ First check the status to see what files you've edited:
 
     $ git status
 
-To double check what you've changed before adding:
+To double check what you've changed before adding files, do a `git diff` (hit `q` to exit the diff):
 
     $ git diff
 
@@ -93,10 +87,6 @@ Until launch, you can preview the published site here:
 
 http://coxandrew.github.io/habitat/
 
-## Build the site cleanly
-
-    $ middleman build --clean
-
 ## Editing
 
 To edit metadata about the page, like the title, you just need to change the variables at the top of each HTML template:
@@ -126,20 +116,36 @@ Now, the file should be open in your text editor. Edit the title and add the aut
     tags:
     ---
 
+### Add the news thumbnail
+
 Create a 90x60 jpg thumbnail with the same name as the file, e.g.
 
     2013-09-04-screaming-eagles.jpg
 
 Save the file in `habitat/source/images/news-thumbnails`.
 
-### Adding news images
+### Add a news image
 
 Save the image to `source/images/news`
 
-Add the image to your article with a news_image partial:
+Add the image to your article with a `news_image` partial:
 
     <%= partial "news_image", locals: {
         image: "screaming-eagles.jpg",
         caption: "The Screaming Eagles present a check to Habitat President Don Whitley."
       } %>
     
+
+## Advanced
+
+### Recovering from a mistake
+
+If you get yourself into trouble and want to reset to the last good copy, you can blow away all your changes with one command:
+
+**WARNING:** This step is irreversible and will wipe out any local changes you've made. Make sure this is what you want to do (this is also a good reason to commit *and* push frequently so you can wipe out your changes without losing a lot of work):
+
+    $ git reset --hard origin/master
+
+### Build the site cleanly
+
+    $ middleman build --clean
