@@ -8,6 +8,11 @@ Go to your project (paths in the terminal are relative, so if you're in a differ
 
     $ git pull
 
+If all is well, it should say:
+
+    (master) $ git pull
+    Current branch master is up to date.
+
 Do a `git log` if you're interested in seeing the latest commits (hit `q` to quit viewing the log):
 
     $ git log
