@@ -8,7 +8,20 @@ Go to your project (paths in the terminal are relative, so if you're in a differ
 
     $ git pull
 
-If all is well, it should say:
+If there are updates, it will look something like:
+
+    (master) $ git pull
+    remote: Counting objects: 83, done.
+    remote: Compressing objects: 100% (14/14), done.
+    remote: Total 47 (delta 23), reused 45 (delta 21)
+    Unpacking objects: 100% (47/47), done.
+    From www.github.com:coxandrew/habitat
+       f061530..2dffcaa  master     -> origin/master
+       61e8a72..b36fd92  gh-pages   -> origin/gh-pages
+    First, rewinding head to replay your work on top of it...
+    Fast-forwarded master to 2dffcaa7c80e47f584d79ede60c57980e0b89fd0.
+
+If everything is up-to-date, it should say:
 
     (master) $ git pull
     Current branch master is up to date.
