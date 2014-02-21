@@ -123,7 +123,7 @@ In iTerm (your terminal), type:
 
 This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
-In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on i ('screaming-eagles' in this example).
+In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on it ('screaming-eagles' in this example).
 
 Now, the file should be open in your text editor. Edit the title and add the author to the metadata section at the top:
 
