@@ -85,7 +85,6 @@ Make sure any new "Untracked files" are removed or moved to a safe place:
     # 
     # some-temporary-file.txt
 
-    $ rm some-temporary-file.txt
 
 When the directory is clean, you should see a message like this:
 
