@@ -48,11 +48,6 @@ This site is built using [Middleman](http://middlemanapp.com/). If you have a wo
 
 #### Checkout and install dependencies
 
-`cd` into the project and install the gems:
-
-    $ git clone git@github.com:coxandrew/habitat
-    $ cd habitat
-    $ bundle install --binstubs
 
 ### Publish the site
 
@@ -84,7 +79,6 @@ Make sure any new "Untracked files" are removed or moved to a safe place:
     #  (use "git add <file>..." to include in what will be committed)
     # 
     # some-temporary-file.txt
-
 
 When the directory is clean, you should see a message like this:
 
