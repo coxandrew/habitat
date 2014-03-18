@@ -113,7 +113,6 @@ Create a new article using a "slug" for the title. The slug will be used as part
 In iTerm (your terminal), type:
 
     $ middleman article screaming-eagles -d 2013-09-04
-
 This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
 In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on it ('screaming-eagles' in this example).
