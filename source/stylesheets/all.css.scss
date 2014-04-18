@@ -516,3 +516,19 @@ footer {
 .homeowner-application {
   margin-bottom: 1rem;
 }
+
+/* =faq
+---------------------------------------------------------------------------- */
+.faq {
+  .question {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: $habitat_blue;
+  }
+  p, ul {
+    margin-bottom: 2rem;
+  }
+  li {
+    margin: 0.5rem 0;
+  }
+}
