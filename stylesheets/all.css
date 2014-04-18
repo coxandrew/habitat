@@ -6325,3 +6325,17 @@ footer {
 /* line 516, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-application {
   margin-bottom: 1rem; }
+
+/* =faq
+---------------------------------------------------------------------------- */
+/* line 523, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.faq .question {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #005f99; }
+/* line 528, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.faq p, .faq ul {
+  margin-bottom: 2rem; }
+/* line 531, /Users/cox/Projects/habitat/source/stylesheets/all.css.scss */
+.faq li {
+  margin: 0.5rem 0; }
