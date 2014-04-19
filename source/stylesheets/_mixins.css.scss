@@ -1,0 +1,11 @@
+@mixin box-shadow($size) {
+  -webkit-box-shadow: 1px 1px $size rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 1px $size rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 1px $size rgba(50, 50, 50, 0.75);
+}
+
+@mixin box-shadow-small($size, $opacity: 0.5) {
+  -webkit-box-shadow: 1px 1px $size rgba(50, 50, 50, $opacity);
+  -moz-box-shadow:    1px 1px $size rgba(50, 50, 50, $opacity);
+  box-shadow:         1px 1px $size rgba(50, 50, 50, $opacity);
+}

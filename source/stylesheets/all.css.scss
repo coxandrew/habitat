@@ -3,6 +3,7 @@
 
 @import "bootstrap";
 @import "colors";
+@import "mixins";
 
 $serif: Georgia, serif;
 $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -174,7 +175,7 @@ h3 {
 }
 .critical-home-repairs {
   position: absolute;
-  width: 220px;
+  width: 298px;
   bottom: 0;
   right: 0;
   background: #fffc93 image-url("critical-home-repairs-gradient.png") repeat-x 0 0;
@@ -182,9 +183,7 @@ h3 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.75);
-  box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.75);
+  @include box-shadow(5px);
 
   &:link,
   &:visited,
@@ -210,6 +209,51 @@ h3 {
       font-size: 1rem;
     }
   }
+}
+.event {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dotted #888;
+
+  .calendar {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    @include box-shadow-small(3px);
+
+    .month,
+    .day {
+      text-align: center;
+    }
+    .month {
+      border-radius: 5px 5px 0 0;
+      background: #9e0b0f;
+      color: #fff;
+      font-size: 0.8rem;
+      padding: 2px 0 0;
+    }
+    .day {
+      line-height: 26px;
+      font-size: 1.2rem;
+      color: #666;
+    }
+  }
+  .event-title,
+  .event-details {
+    margin-left: 70px;
+  }
+  .event-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .event-details {
+    color: #666;
+  }
+}
+.event-contact {
+  text-align: center;
 }
 
 /* =news
@@ -358,7 +402,7 @@ aside {
 
   .action {
     float: left;
-    width: 233px;
+    width: 206px;
     text-align: center;
     cursor: pointer;
 
@@ -380,7 +424,7 @@ aside {
     }
   }
   .action-volunteer {
-    width: 234px;
+    width: 208px;
   }
   .action-donate {
     .inside {
