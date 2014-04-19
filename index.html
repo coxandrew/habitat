@@ -74,7 +74,7 @@
     <div class="main container">
       <div class="row">
 
-  <div class="span9">
+  <div class="span8">
     <div class="rotating-images">
       <div class="rotating-image rotating-image-00">
       </div>
@@ -106,38 +106,24 @@
     </div>
   </div>
 
-  <div class="span3">
-    <div class="call-to-action action-apply">
-      <h2>Apply to be a homeowner</h2>
+  <div class="span4">
+    <div class="event">
+  <div class="calendar">
+    <div class="month">APR</div>
+    <div class="day">26</div>
+  </div>
 
-      <p>
-        Habitat builds affordable houses for low income families who are willing to help in the construction of their own home.
-        Do you have a housing need and a steady income?
-      </p>
+  <div class="event-title">PPC to Lead 1st Blitz Build</div>
+  <div class="event-details">Powhatan Community Church will lead our first Blitz Build on three consecutive Saturdays: April 26, May 3, and May 10. This is the Langfitt house which is home #10.</div>
+</div>
 
-      <a class="btn btn-success btn-large btn-block" href="apply.html">Apply Now</a>
-    </div>
 
-    <div class="call-to-action action-volunteer">
-      <h2>Volunteer to build a home</h2>
+    <div class="event-contact">
+      Contact <strong>Terry Paquette</strong> to get involved!
 
-      <p>
-        Volunteers provide much of the labor needed to build Habitat houses.
-        Are you interested in the rewarding experience of lending your skills to a Habitat project?
-      </p>
-
-      <a class="btn btn-success btn-large btn-block" href="volunteer.html">Volunteer Today</a>
-    </div>
-
-    <div class="call-to-action action-donate">
-      <h2>Donate a gift to Habitat</h2>
-
-      <p>
-        Habitat relies on donations of land, money and materials to accomplish its mission.
-        Are you interested in supporting Habitat with a donation?
-      </p>
-
-      <a class="btn btn-success btn-large btn-block" href="donate.html">Donate Now</a>
+      <div class="contact-methods">
+        (804) 794-1700 &middot; <a href="mailto:hfh.powhatan@gmail.com">hfh.powhatan@gmail.com</a>
+      </div>
     </div>
 
     <a class="critical-home-repairs" href="apply/critical_repair.html">
@@ -282,8 +268,6 @@ function initializeCarousel() {
     $(this).addClass('active');
     var selectedAction = $(this).attr('id').split('-')[1];
     loadActionPhotos(selectedAction);
-    $('.call-to-action').hide();
-    $('.call-to-action.action-' + selectedAction).show();
   });
 }
 
