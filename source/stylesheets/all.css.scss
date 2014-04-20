@@ -12,16 +12,8 @@ $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 ---------------------------------------------------------------------------- */
 body {
   font-family: $sans_serif;
-
-  background-color: #ccbca3;
-  background-image: url(http://www.transparenttextures.com/patterns/clean-textile.png);
-
-  background-color: #ccbca3;
-  background-image: url(http://www.transparenttextures.com/patterns/simple-horizontal-light.png);
-
-  background-color: #d6ccb8;
-  background-image: url(http://www.transparenttextures.com/patterns/simple-horizontal-light.png);
-
+  background-color: #edeae3;
+  background-image: image-url("absurdity.png");
 }
 p, li {
   font-size: 1rem;
@@ -130,6 +122,7 @@ header {
     &.active a,
     a:hover {
       background: $habitat_green;
+      border-left-color: #6cd660;
     }
     &.active a {
       border-left-color: $habitat_green;
@@ -277,7 +270,7 @@ h3 {
     margin-bottom: 0.5rem;
   }
   .event-details {
-    color: #666;
+    color: #555;
   }
 }
 .event-contact {
