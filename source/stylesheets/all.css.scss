@@ -12,6 +12,16 @@ $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 ---------------------------------------------------------------------------- */
 body {
   font-family: $sans_serif;
+
+  background-color: #ccbca3;
+  background-image: url(http://www.transparenttextures.com/patterns/clean-textile.png);
+
+  background-color: #ccbca3;
+  background-image: url(http://www.transparenttextures.com/patterns/simple-horizontal-light.png);
+
+  background-color: #d6ccb8;
+  background-image: url(http://www.transparenttextures.com/patterns/simple-horizontal-light.png);
+
 }
 p, li {
   font-size: 1rem;
@@ -30,10 +40,20 @@ h4 {
   font-size: 1.4rem;
 }
 
+/* =wrapper
+---------------------------------------------------------------------------- */
+.wrapper {
+  width: 980px;
+  margin: auto;
+  background: #fff;
+  @include outer-glow();
+}
+
 /* =header
 ---------------------------------------------------------------------------- */
 header {
   position: relative;
+  padding: 0 20px;
   border-bottom: 1px solid $light_gray;
 
   .logo {
@@ -81,8 +101,9 @@ header {
     }
   }
 }
-nav {
+.container nav {
   background: $habitat_blue;
+  margin: 0 -20px;
 
   ul {
     margin: 0;
@@ -110,13 +131,20 @@ nav {
     a:hover {
       background: $habitat_green;
     }
+    &.active a {
+      border-left-color: $habitat_green;
+    }
   }
 }
 
 /* =main
 ---------------------------------------------------------------------------- */
-.main ol li {
-  margin: 1rem 0;
+.main {
+  padding: 0 20px;
+
+  ol li {
+    margin: 1rem 0;
+  }
 }
 
 /* =sidebar

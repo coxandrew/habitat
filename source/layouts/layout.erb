@@ -1,14 +1,16 @@
 <!doctype html>
 <html>
-  <%= partial "head" %>
+  <div class="wrapper">
+    <%= partial "head" %>
 
-  <body class="<%= page_classes %>">
-    <%= partial "header" %>
+    <body class="<%= page_classes %>">
+      <%= partial "header" %>
 
-    <div class="main container">
-      <%= yield %>
-    </div>
+      <div class="main container">
+        <%= yield %>
+      </div>
 
-    <%= partial "footer" %>
-  </body>
+      <%= partial "footer" %>
+    </body>
+  </div>
 </html>
