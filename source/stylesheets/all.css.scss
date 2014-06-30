@@ -245,19 +245,20 @@ h3 {
     border: 1px solid #aaa;
     @include box-shadow-small(3px);
 
-    .month,
-    .day {
+    .header,
+    .month {
       text-align: center;
     }
-    .month {
+    .header {
+      height: 14px;
       border-radius: 5px 5px 0 0;
       background: #9e0b0f;
       color: #fff;
       font-size: 0.8rem;
       padding: 2px 0 0;
     }
-    .day {
-      line-height: 26px;
+    .month {
+      line-height: 32px;
       font-size: 1.2rem;
       color: #666;
     }
