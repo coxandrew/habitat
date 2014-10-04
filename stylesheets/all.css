@@ -7,7 +7,7 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-/* line 19, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 10, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 article,
 aside,
 details,
@@ -20,7 +20,7 @@ nav,
 section {
   display: block; }
 
-/* line 28, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 26, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 audio,
 canvas,
 video {
@@ -44,12 +44,12 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-/* line 55, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 54, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 a:hover,
 a:active {
   outline: 0; }
 
-/* line 63, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 62, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 sub,
 sup {
   position: relative;
@@ -78,12 +78,12 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic; }
 
-/* line 92, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 91, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 #map_canvas img,
 .google-maps img {
   max-width: none; }
 
-/* line 103, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 100, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 button,
 input,
 select,
@@ -92,19 +92,19 @@ textarea {
   font-size: 100%;
   vertical-align: middle; }
 
-/* line 109, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 108, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 button,
 input {
   *overflow: visible;
   line-height: normal; }
 
-/* line 114, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 113, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0; }
 
-/* line 121, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 118, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -112,7 +112,7 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-/* line 132, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 125, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 label,
 select,
 button,
@@ -130,7 +130,7 @@ input[type="search"] {
   box-sizing: content-box;
   -webkit-appearance: textfield; }
 
-/* line 140, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+/* line 139, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none; }
@@ -148,7 +148,7 @@ textarea {
     background: transparent !important;
     box-shadow: none !important; }
 
-  /* line 163, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+  /* line 162, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
   a,
   a:visited {
     text-decoration: underline; }
@@ -161,13 +161,13 @@ textarea {
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
-  /* line 178, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+  /* line 176, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 183, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+  /* line 182, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -177,7 +177,7 @@ textarea {
   thead {
     display: table-header-group; }
 
-  /* line 193, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+  /* line 192, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
   tr,
   img {
     page-break-inside: avoid; }
@@ -188,15 +188,14 @@ textarea {
 
   @page {
     margin: 0.5cm; }
-
-  /* line 207, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+  /* line 205, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 213, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
+  /* line 212, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_reset.scss */
   h2,
   h3 {
     page-break-after: avoid; } }
@@ -206,15 +205,15 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
-  background-color: white; }
+  color: #333;
+  background-color: #fff; }
 
 /* line 22, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #0088cc;
+  color: #08c;
   text-decoration: none; }
 
-/* line 27, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
+/* line 26, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover,
 a:focus {
   color: #005580;
@@ -246,7 +245,7 @@ a:focus {
 .row {
   margin-left: -20px;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .row:before, .row:after {
     display: table;
     content: "";
@@ -261,7 +260,7 @@ a:focus {
   min-height: 1px;
   margin-left: 20px; }
 
-/* line 582, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 579, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
@@ -368,7 +367,7 @@ a:focus {
 .row-fluid {
   width: 100%;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .row-fluid:before, .row-fluid:after {
     display: table;
     content: "";
@@ -538,12 +537,12 @@ a:focus {
     margin-left: 102.12766%;
     *margin-left: 102.02128%; }
 
-/* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_grid.scss */
+/* line 13, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_grid.scss */
 [class*="span"].hide,
 .row-fluid [class*="span"].hide {
   display: none; }
 
-/* line 19, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_grid.scss */
+/* line 18, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_grid.scss */
 [class*="span"].pull-right,
 .row-fluid [class*="span"].pull-right {
   float: right; }
@@ -553,7 +552,7 @@ a:focus {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .container:before, .container:after {
     display: table;
     content: "";
@@ -567,7 +566,7 @@ a:focus {
   padding-right: 20px;
   padding-left: 20px;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .container-fluid:before, .container-fluid:after {
     display: table;
     content: "";
@@ -605,9 +604,9 @@ cite {
 
 /* line 31, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 .muted {
-  color: #999999; }
+  color: #999; }
 
-/* line 33, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 32, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 a.muted:hover,
 a.muted:focus {
   color: gray; }
@@ -616,7 +615,7 @@ a.muted:focus {
 .text-warning {
   color: #c09853; }
 
-/* line 37, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 36, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 a.text-warning:hover,
 a.text-warning:focus {
   color: #a47e3c; }
@@ -625,7 +624,7 @@ a.text-warning:focus {
 .text-error {
   color: #b94a48; }
 
-/* line 41, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 40, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 a.text-error:hover,
 a.text-error:focus {
   color: #953b39; }
@@ -634,7 +633,7 @@ a.text-error:focus {
 .text-info {
   color: #3a87ad; }
 
-/* line 45, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 44, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 a.text-info:hover,
 a.text-info:focus {
   color: #2d6987; }
@@ -643,7 +642,7 @@ a.text-info:focus {
 .text-success {
   color: #468847; }
 
-/* line 49, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 48, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 a.text-success:hover,
 a.text-success:focus {
   color: #356635; }
@@ -672,9 +671,9 @@ h1, h2, h3, h4, h5, h6 {
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-weight: normal;
     line-height: 1;
-    color: #999999; }
+    color: #999; }
 
-/* line 75, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 73, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1,
 h2,
 h3 {
@@ -724,14 +723,14 @@ h4 small {
 .page-header {
   padding-bottom: 9px;
   margin: 20px 0 30px;
-  border-bottom: 1px solid #eeeeee; }
+  border-bottom: 1px solid #eee; }
 
 /* line 105, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul, ol {
   padding: 0;
   margin: 0 0 10px 25px; }
 
-/* line 112, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 109, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -742,13 +741,13 @@ ol ul {
 li {
   line-height: 20px; }
 
-/* line 121, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 120, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none; }
 
-/* line 128, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 127, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul.inline,
 ol.inline {
   margin-left: 0;
@@ -767,7 +766,7 @@ ol.inline {
 dl {
   margin-bottom: 20px; }
 
-/* line 144, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 143, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 dt,
 dd {
   line-height: 20px; }
@@ -783,7 +782,7 @@ dd {
 /* line 154, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 .dl-horizontal {
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .dl-horizontal:before, .dl-horizontal:after {
     display: table;
     content: "";
@@ -808,14 +807,14 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid white; }
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff; }
 
-/* line 182, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 180, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #999999; }
+  border-bottom: 1px dotted #999; }
 
 /* line 186, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 abbr.initialism {
@@ -826,7 +825,7 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee; }
+  border-left: 5px solid #eee; }
   /* line 196, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
   blockquote p {
     margin-bottom: 0;
@@ -837,7 +836,7 @@ blockquote {
   blockquote small {
     display: block;
     line-height: 20px;
-    color: #999999; }
+    color: #999; }
     /* line 206, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
     blockquote small:before {
       content: '\2014 \00A0'; }
@@ -846,9 +845,9 @@ blockquote {
     float: right;
     padding-right: 15px;
     padding-left: 0;
-    border-right: 5px solid #eeeeee;
+    border-right: 5px solid #eee;
     border-left: 0; }
-    /* line 219, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+    /* line 218, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
     blockquote.pull-right p,
     blockquote.pull-right small {
       text-align: right; }
@@ -859,7 +858,7 @@ blockquote {
     blockquote.pull-right small:after {
       content: '\00A0 \2014'; }
 
-/* line 237, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
+/* line 234, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_type.scss */
 q:before,
 q:after,
 blockquote:before,
@@ -873,13 +872,13 @@ address {
   font-style: normal;
   line-height: 20px; }
 
-/* line 8, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_code.scss */
+/* line 7, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_code.scss */
 code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
-  color: #333333;
+  color: #333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
@@ -944,15 +943,15 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: 40px;
-  color: #333333;
+  color: #333;
   border: 0;
   border-bottom: 1px solid #e5e5e5; }
   /* line 33, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
   legend small {
     font-size: 15px;
-    color: #999999; }
+    color: #999; }
 
-/* line 44, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 40, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 label,
 input,
 button,
@@ -962,7 +961,7 @@ textarea {
   font-weight: normal;
   line-height: 20px; }
 
-/* line 50, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 47, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input,
 button,
 select,
@@ -974,7 +973,7 @@ label {
   display: block;
   margin-bottom: 5px; }
 
-/* line 80, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 64, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 select,
 textarea,
 input[type="text"],
@@ -998,13 +997,13 @@ input[type="color"],
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 20px;
-  color: #555555;
+  color: #555;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   vertical-align: middle; }
 
-/* line 96, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 94, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input,
 textarea,
 .uneditable-input {
@@ -1014,7 +1013,7 @@ textarea,
 textarea {
   height: auto; }
 
-/* line 119, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 104, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 textarea,
 input[type="text"],
 input[type="password"],
@@ -1031,8 +1030,8 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  background-color: white;
-  border: 1px solid #cccccc;
+  background-color: #fff;
+  border: 1px solid #ccc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1065,7 +1064,7 @@ input[type="color"],
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); }
 
-/* line 136, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 135, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -1075,7 +1074,7 @@ input[type="checkbox"] {
   /* IE8-9 */
   line-height: normal; }
 
-/* line 150, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 144, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input[type="file"],
 input[type="image"],
 input[type="submit"],
@@ -1085,7 +1084,7 @@ input[type="radio"],
 input[type="checkbox"] {
   width: auto; }
 
-/* line 156, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 155, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 select,
 input[type="file"] {
   height: 30px;
@@ -1097,15 +1096,15 @@ input[type="file"] {
 /* line 163, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 select {
   width: 220px;
-  border: 1px solid #cccccc;
-  background-color: white; }
+  border: 1px solid #ccc;
+  background-color: #fff; }
 
-/* line 171, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 170, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 select[multiple],
 select[size] {
   height: auto; }
 
-/* line 179, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 176, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 select:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
@@ -1114,12 +1113,12 @@ input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-/* line 189, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 188, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .uneditable-input,
 .uneditable-textarea {
-  color: #999999;
+  color: #999;
   background-color: #fcfcfc;
-  border-color: #cccccc;
+  border-color: #ccc;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
@@ -1138,34 +1137,34 @@ input[type="checkbox"]:focus {
 /* line 83, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #999999; }
+  color: #999; }
 /* line 86, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #999999; }
+  color: #999; }
 /* line 89, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #999999; }
+  color: #999; }
 
-/* line 225, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 224, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .radio,
 .checkbox {
   min-height: 20px;
   padding-left: 20px; }
 
-/* line 230, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 229, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
   margin-left: -20px; }
 
-/* line 237, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 236, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .controls > .radio:first-child,
 .controls > .checkbox:first-child {
   padding-top: 5px; }
 
-/* line 244, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 243, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .radio.inline,
 .checkbox.inline {
   display: inline-block;
@@ -1173,7 +1172,7 @@ textarea::-webkit-input-placeholder {
   margin-bottom: 0;
   vertical-align: middle; }
 
-/* line 251, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 250, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px; }
@@ -1202,7 +1201,7 @@ textarea::-webkit-input-placeholder {
 .input-xxlarge {
   width: 530px; }
 
-/* line 277, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 269, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input[class*="span"],
 select[class*="span"],
 textarea[class*="span"],
@@ -1214,7 +1213,7 @@ textarea[class*="span"],
   float: none;
   margin-left: 0; }
 
-/* line 291, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 282, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-append input[class*="span"],
 .input-append .uneditable-input[class*="span"],
 .input-prepend input[class*="span"],
@@ -1227,7 +1226,7 @@ textarea[class*="span"],
 .row-fluid .input-append [class*="span"] {
   display: inline-block; }
 
-/* line 671, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 669, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input,
 textarea,
 .uneditable-input {
@@ -1237,73 +1236,73 @@ textarea,
 .controls-row [class*="span"] + [class*="span"] {
   margin-left: 20px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span1,
 textarea.span1,
 .uneditable-input.span1 {
   width: 46px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span2,
 textarea.span2,
 .uneditable-input.span2 {
   width: 126px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span3,
 textarea.span3,
 .uneditable-input.span3 {
   width: 206px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span4,
 textarea.span4,
 .uneditable-input.span4 {
   width: 286px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span5,
 textarea.span5,
 .uneditable-input.span5 {
   width: 366px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span6,
 textarea.span6,
 .uneditable-input.span6 {
   width: 446px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span7,
 textarea.span7,
 .uneditable-input.span7 {
   width: 526px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span8,
 textarea.span8,
 .uneditable-input.span8 {
   width: 606px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span9,
 textarea.span9,
 .uneditable-input.span9 {
   width: 686px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span10,
 textarea.span10,
 .uneditable-input.span10 {
   width: 766px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span11,
 textarea.span11,
 .uneditable-input.span11 {
   width: 846px; }
 
-/* line 688, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 686, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 input.span12,
 textarea.span12,
 .uneditable-input.span12 {
@@ -1312,7 +1311,7 @@ textarea.span12,
 /* line 304, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .controls-row {
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .controls-row:before, .controls-row:after {
     display: table;
     content: "";
@@ -1321,17 +1320,17 @@ textarea.span12,
   .controls-row:after {
     clear: both; }
 
-/* line 311, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 309, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .controls-row [class*="span"],
 .row-fluid .controls-row [class*="span"] {
   float: left; }
 
-/* line 316, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 315, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .controls-row .checkbox[class*="span"],
 .controls-row .radio[class*="span"] {
   padding-top: 5px; }
 
-/* line 332, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 327, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input[disabled],
 select[disabled],
 textarea[disabled],
@@ -1339,28 +1338,28 @@ input[readonly],
 select[readonly],
 textarea[readonly] {
   cursor: not-allowed;
-  background-color: #eeeeee; }
+  background-color: #eee; }
 
-/* line 340, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 337, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"][readonly],
 input[type="checkbox"][readonly] {
   background-color: transparent; }
 
-/* line 164, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 162, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.warning .control-label,
 .control-group.warning .help-block,
 .control-group.warning .help-inline {
   color: #c09853; }
-/* line 172, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 168, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.warning .checkbox,
 .control-group.warning .radio,
 .control-group.warning input,
 .control-group.warning select,
 .control-group.warning textarea {
   color: #c09853; }
-/* line 177, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 175, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.warning input,
 .control-group.warning select,
 .control-group.warning textarea {
@@ -1376,26 +1375,26 @@ input[type="checkbox"][readonly] {
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e; }
-/* line 187, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 186, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.warning .input-prepend .add-on,
 .control-group.warning .input-append .add-on {
   color: #c09853;
   background-color: #fcf8e3;
   border-color: #c09853; }
 
-/* line 164, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 162, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
   color: #b94a48; }
-/* line 172, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 168, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.error .checkbox,
 .control-group.error .radio,
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
   color: #b94a48; }
-/* line 177, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 175, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
@@ -1411,26 +1410,26 @@ input[type="checkbox"][readonly] {
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392; }
-/* line 187, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 186, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
   color: #b94a48;
   background-color: #f2dede;
   border-color: #b94a48; }
 
-/* line 164, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 162, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.success .control-label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
   color: #468847; }
-/* line 172, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 168, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.success .checkbox,
 .control-group.success .radio,
 .control-group.success input,
 .control-group.success select,
 .control-group.success textarea {
   color: #468847; }
-/* line 177, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 175, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.success input,
 .control-group.success select,
 .control-group.success textarea {
@@ -1446,26 +1445,26 @@ input[type="checkbox"][readonly] {
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b; }
-/* line 187, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 186, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.success .input-prepend .add-on,
 .control-group.success .input-append .add-on {
   color: #468847;
   background-color: #dff0d8;
   border-color: #468847; }
 
-/* line 164, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 162, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.info .control-label,
 .control-group.info .help-block,
 .control-group.info .help-inline {
   color: #3a87ad; }
-/* line 172, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 168, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.info .checkbox,
 .control-group.info .radio,
 .control-group.info input,
 .control-group.info select,
 .control-group.info textarea {
   color: #3a87ad; }
-/* line 177, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 175, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.info input,
 .control-group.info select,
 .control-group.info textarea {
@@ -1481,14 +1480,14 @@ input[type="checkbox"][readonly] {
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3; }
-/* line 187, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+/* line 186, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .control-group.info .input-prepend .add-on,
 .control-group.info .input-append .add-on {
   color: #3a87ad;
   background-color: #d9edf7;
   border-color: #3a87ad; }
 
-/* line 371, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 369, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 input:focus:invalid,
 textarea:focus:invalid,
 select:focus:invalid {
@@ -1508,10 +1507,10 @@ select:focus:invalid {
   padding: 19px 20px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .form-actions:before, .form-actions:after {
     display: table;
     content: "";
@@ -1520,7 +1519,7 @@ select:focus:invalid {
   .form-actions:after {
     clear: both; }
 
-/* line 400, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 399, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .help-block,
 .help-inline {
   color: #595959; }
@@ -1539,7 +1538,7 @@ select:focus:invalid {
   vertical-align: middle;
   padding-left: 5px; }
 
-/* line 423, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 422, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-append,
 .input-prepend {
   display: inline-block;
@@ -1547,7 +1546,7 @@ select:focus:invalid {
   vertical-align: middle;
   font-size: 0;
   white-space: nowrap; }
-  /* line 435, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 431, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .input-append input,
   .input-append select,
   .input-append .uneditable-input,
@@ -1559,7 +1558,7 @@ select:focus:invalid {
   .input-prepend .dropdown-menu,
   .input-prepend .popover {
     font-size: 14px; }
-  /* line 441, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 439, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .input-append input,
   .input-append select,
   .input-append .uneditable-input,
@@ -1593,10 +1592,10 @@ select:focus:invalid {
     font-weight: normal;
     line-height: 20px;
     text-align: center;
-    text-shadow: 0 1px 0 white;
-    background-color: #eeeeee;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #eee;
     border: 1px solid #ccc; }
-  /* line 468, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 466, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .input-append .add-on,
   .input-append .btn,
   .input-append .btn-group > .dropdown-toggle,
@@ -1613,18 +1612,18 @@ select:focus:invalid {
     background-color: #a9dba9;
     border-color: #46a546; }
 
-/* line 480, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 479, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-prepend .add-on,
 .input-prepend .btn {
   margin-right: -1px; }
-/* line 484, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 483, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px; }
 
-/* line 493, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 491, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
@@ -1638,12 +1637,12 @@ select:focus:invalid {
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0; }
-/* line 501, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 499, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-append .add-on,
 .input-append .btn,
 .input-append .btn-group {
   margin-left: -1px; }
-/* line 506, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 504, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-append .add-on:last-child,
 .input-append .btn:last-child,
 .input-append .btn-group:last-child > .dropdown-toggle {
@@ -1651,7 +1650,7 @@ select:focus:invalid {
   -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0; }
 
-/* line 515, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-prepend.input-append input,
 .input-prepend.input-append select,
 .input-prepend.input-append .uneditable-input {
@@ -1665,14 +1664,14 @@ select:focus:invalid {
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
     border-radius: 0 4px 4px 0; }
-/* line 522, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child {
   margin-right: -1px;
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px; }
-/* line 527, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 526, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child {
   margin-left: -1px;
@@ -1696,7 +1695,7 @@ input.search-query {
   border-radius: 15px; }
 
 /* Allow for input prepend/append in search forms */
-/* line 553, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 552, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-search .input-append .search-query,
 .form-search .input-prepend .search-query {
   -webkit-border-radius: 0;
@@ -1727,7 +1726,7 @@ input.search-query {
   -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px; }
 
-/* line 587, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 581, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-search input,
 .form-search textarea,
 .form-search select,
@@ -1761,21 +1760,21 @@ input.search-query {
 .form-horizontal .hide {
   display: none; }
 
-/* line 601, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 598, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-search label,
 .form-inline label,
 .form-search .btn-group,
 .form-inline .btn-group {
   display: inline-block; }
 
-/* line 608, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 605, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-search .input-append,
 .form-inline .input-append,
 .form-search .input-prepend,
 .form-inline .input-prepend {
   margin-bottom: 0; }
 
-/* line 615, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 612, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-search .radio,
 .form-search .checkbox,
 .form-inline .radio,
@@ -1784,7 +1783,7 @@ input.search-query {
   margin-bottom: 0;
   vertical-align: middle; }
 
-/* line 624, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
+/* line 621, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-search .radio input[type="radio"],
 .form-search .checkbox input[type="checkbox"],
 .form-inline .radio input[type="radio"],
@@ -1806,7 +1805,7 @@ legend + .control-group {
 .form-horizontal .control-group {
   margin-bottom: 20px;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .form-horizontal .control-group:before, .form-horizontal .control-group:after {
     display: table;
     content: "";
@@ -1855,21 +1854,21 @@ table {
 .table {
   width: 100%;
   margin-bottom: 20px; }
-  /* line 24, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 23, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table th,
   .table td {
     padding: 8px;
     line-height: 20px;
     text-align: left;
     vertical-align: top;
-    border-top: 1px solid #dddddd; }
+    border-top: 1px solid #ddd; }
   /* line 31, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table th {
     font-weight: bold; }
   /* line 35, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table thead th {
     vertical-align: bottom; }
-  /* line 44, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 39, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table caption + thead tr:first-child th,
   .table caption + thead tr:first-child td,
   .table colgroup + thead tr:first-child th,
@@ -1879,30 +1878,30 @@ table {
     border-top: 0; }
   /* line 48, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table tbody + tbody {
-    border-top: 2px solid #dddddd; }
+    border-top: 2px solid #ddd; }
   /* line 53, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table .table {
-    background-color: white; }
+    background-color: #fff; }
 
-/* line 65, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+/* line 64, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table-condensed th,
 .table-condensed td {
   padding: 4px 5px; }
 
 /* line 74, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
-  /* line 81, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 80, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered th,
   .table-bordered td {
-    border-left: 1px solid #dddddd; }
-  /* line 93, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+    border-left: 1px solid #ddd; }
+  /* line 85, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered caption + thead tr:first-child th,
   .table-bordered caption + tbody tr:first-child th,
   .table-bordered caption + tbody tr:first-child td,
@@ -1913,21 +1912,21 @@ table {
   .table-bordered tbody:first-child tr:first-child th,
   .table-bordered tbody:first-child tr:first-child td {
     border-top: 0; }
-  /* line 99, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 97, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered thead:first-child tr:first-child > th:first-child,
   .table-bordered tbody:first-child tr:first-child > td:first-child,
   .table-bordered tbody:first-child tr:first-child > th:first-child {
     -webkit-border-top-left-radius: 4px;
     -moz-border-radius-topleft: 4px;
     border-top-left-radius: 4px; }
-  /* line 105, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 103, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered thead:first-child tr:first-child > th:last-child,
   .table-bordered tbody:first-child tr:first-child > td:last-child,
   .table-bordered tbody:first-child tr:first-child > th:last-child {
     -webkit-border-top-right-radius: 4px;
     -moz-border-radius-topright: 4px;
     border-top-right-radius: 4px; }
-  /* line 113, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 109, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered thead:last-child tr:last-child > th:first-child,
   .table-bordered tbody:last-child tr:last-child > td:first-child,
   .table-bordered tbody:last-child tr:last-child > th:first-child,
@@ -1936,7 +1935,7 @@ table {
     -webkit-border-bottom-left-radius: 4px;
     -moz-border-radius-bottomleft: 4px;
     border-bottom-left-radius: 4px; }
-  /* line 121, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 117, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered thead:last-child tr:last-child > th:last-child,
   .table-bordered tbody:last-child tr:last-child > td:last-child,
   .table-bordered tbody:last-child tr:last-child > th:last-child,
@@ -1955,7 +1954,7 @@ table {
     -webkit-border-bottom-right-radius: 0;
     -moz-border-radius-bottomright: 0;
     border-bottom-right-radius: 0; }
-  /* line 137, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 134, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered caption + thead tr:first-child th:first-child,
   .table-bordered caption + tbody tr:first-child td:first-child,
   .table-bordered colgroup + thead tr:first-child th:first-child,
@@ -1963,7 +1962,7 @@ table {
     -webkit-border-top-left-radius: 4px;
     -moz-border-radius-topleft: 4px;
     border-top-left-radius: 4px; }
-  /* line 143, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 140, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-bordered caption + thead tr:first-child th:last-child,
   .table-bordered caption + tbody tr:first-child td:last-child,
   .table-bordered colgroup + thead tr:first-child th:last-child,
@@ -1972,17 +1971,17 @@ table {
     -moz-border-radius-topright: 4px;
     border-top-right-radius: 4px; }
 
-/* line 159, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+/* line 158, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
   background-color: #f9f9f9; }
 
-/* line 172, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+/* line 171, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table-hover tbody tr:hover > td,
 .table-hover tbody tr:hover > th {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
-/* line 186, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
+/* line 183, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
 table td[class*="span"],
 table th[class*="span"],
 .row-fluid table td[class*="span"],
@@ -2090,7 +2089,7 @@ table th[class*="span"],
 .table-hover tbody tr.info:hover > td {
   background-color: #c4e3f3; }
 
-/* line 18, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_sprites.scss */
+/* line 17, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_sprites.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
@@ -2105,7 +2104,7 @@ table th[class*="span"],
   margin-top: 1px; }
 
 /* White icons with optional class, or on hover/focus/active states of certain elements */
-/* line 48, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_sprites.scss */
+/* line 32, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_sprites.scss */
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
@@ -2688,7 +2687,7 @@ table th[class*="span"],
 .icon-fullscreen {
   background-position: -456px -144px; }
 
-/* line 8, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 7, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropup,
 .dropdown {
   position: relative; }
@@ -2697,7 +2696,7 @@ table th[class*="span"],
 .dropdown-toggle {
   *margin-bottom: -3px; }
 
-/* line 16, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-toggle:active,
 .open .dropdown-toggle {
   outline: 0; }
@@ -2708,7 +2707,7 @@ table th[class*="span"],
   width: 0;
   height: 0;
   vertical-align: top;
-  border-top: 4px solid black;
+  border-top: 4px solid #000;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   content: ""; }
@@ -2730,7 +2729,7 @@ table th[class*="span"],
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
@@ -2756,7 +2755,7 @@ table th[class*="span"],
     *margin: -5px 0 5px;
     overflow: hidden;
     background-color: #e5e5e5;
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid #fff; }
   /* line 75, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
   .dropdown-menu > li > a {
     display: block;
@@ -2764,48 +2763,48 @@ table th[class*="span"],
     clear: both;
     font-weight: normal;
     line-height: 20px;
-    color: #333333;
+    color: #333;
     white-space: nowrap; }
 
-/* line 91, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 88, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   background-color: #0081c2;
-  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
-  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-image: -moz-linear-gradient(top, #08c, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #08c, #0077b3);
+  background-image: -o-linear-gradient(top, #08c, #0077b3);
+  background-image: linear-gradient(to bottom, #08c, #0077b3);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0); }
 
-/* line 101, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 99, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
   outline: 0;
   background-color: #0081c2;
-  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
-  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-image: -moz-linear-gradient(top, #08c, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #08c, #0077b3);
+  background-image: -o-linear-gradient(top, #08c, #0077b3);
+  background-image: linear-gradient(to bottom, #08c, #0077b3);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0); }
 
-/* line 113, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 111, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #999999; }
+  color: #999; }
 
-/* line 118, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 117, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
@@ -2839,7 +2838,7 @@ table th[class*="span"],
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #000;
   content: ""; }
 /* line 169, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropup .dropdown-menu,
@@ -2892,7 +2891,7 @@ table th[class*="span"],
 
 /* line 216, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-submenu:hover > a:after {
-  border-left-color: white; }
+  border-left-color: #fff; }
 
 /* line 221, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-submenu.pull-left {
@@ -2923,7 +2922,7 @@ table th[class*="span"],
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2980,13 +2979,13 @@ table th[class*="span"],
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
-  color: black;
+  color: #000;
   text-shadow: 0 1px 0 white;
   opacity: 0.2;
   filter: alpha(opacity=20); }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_close.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_close.scss */
   .close:hover, .close:focus {
-    color: black;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
     opacity: 0.4;
@@ -3013,14 +3012,14 @@ button.close {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  color: #333333;
+  color: #333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   background-color: whitesmoke;
-  background-image: -moz-linear-gradient(top, white, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
-  background-image: -o-linear-gradient(top, white, #e6e6e6);
-  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #fff, #e6e6e6);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
@@ -3028,7 +3027,7 @@ button.close {
   *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   *border: 0;
   border-bottom-color: #b3b3b3;
   -webkit-border-radius: 4px;
@@ -3040,18 +3039,18 @@ button.close {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
-    color: #333333;
+    color: #333;
     background-color: #e6e6e6;
     *background-color: #d9d9d9; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn:active, .btn.active {
     background-color: #cccccc \9; }
   /* line 61, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn:first-child {
     *margin-left: 0; }
-  /* line 30, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+  /* line 29, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:hover, .btn:focus {
-    color: #333333;
+    color: #333;
     text-decoration: none;
     background-position: 0 -15px;
     -webkit-transition: background-position 0.1s linear;
@@ -3063,14 +3062,14 @@ button.close {
     outline: thin dotted #333;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
-  /* line 47, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+  /* line 46, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
   .btn.active, .btn:active {
     background-image: none;
     outline: 0;
     -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); }
-  /* line 55, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+  /* line 54, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
   .btn.disabled, .btn[disabled] {
     cursor: default;
     background-image: none;
@@ -3088,7 +3087,7 @@ button.close {
   -moz-border-radius: 6px;
   border-radius: 6px; }
 
-/* line 76, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 75, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-large [class^="icon-"],
 .btn-large [class*=" icon-"] {
   margin-top: 4px; }
@@ -3101,12 +3100,12 @@ button.close {
   -moz-border-radius: 3px;
   border-radius: 3px; }
 
-/* line 87, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 86, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-small [class^="icon-"],
 .btn-small [class*=" icon-"] {
   margin-top: 0; }
 
-/* line 91, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 90, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-mini [class^="icon-"],
 .btn-mini [class*=" icon-"] {
   margin-top: -1px; }
@@ -3139,7 +3138,7 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
-/* line 139, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 134, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary.active,
 .btn-warning.active,
 .btn-danger.active,
@@ -3150,14 +3149,14 @@ input[type="button"].btn-block {
 
 /* line 145, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #006ccc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-image: -moz-linear-gradient(top, #08c, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #08c, #0044cc);
+  background-image: -o-linear-gradient(top, #08c, #0044cc);
+  background-image: linear-gradient(to bottom, #08c, #0044cc);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0044CC', GradientType=0);
   border-color: #0044cc #0044cc #002a80;
@@ -3167,16 +3166,16 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-    color: white;
+    color: #fff;
     background-color: #0044cc;
     *background-color: #003bb3; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-primary:active, .btn-primary.active {
     background-color: #003399 \9; }
 
 /* line 149, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #f9a732;
   background-image: -moz-linear-gradient(top, #fbb450, #f89406);
@@ -3193,16 +3192,16 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
-    color: white;
+    color: #fff;
     background-color: #f89406;
     *background-color: #df8505; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-warning:active, .btn-warning.active {
     background-color: #c67605 \9; }
 
 /* line 153, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #da4e49;
   background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
@@ -3219,16 +3218,16 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
-    color: white;
+    color: #fff;
     background-color: #bd362f;
     *background-color: #a9302a; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-danger:active, .btn-danger.active {
     background-color: #942a25 \9; }
 
 /* line 157, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #5bb65b;
   background-image: -moz-linear-gradient(top, #62c462, #51a351);
@@ -3245,16 +3244,16 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
-    color: white;
+    color: #fff;
     background-color: #51a351;
     *background-color: #499249; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-success:active, .btn-success.active {
     background-color: #408140 \9; }
 
 /* line 161, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #49afcd;
   background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
@@ -3271,40 +3270,40 @@ input[type="button"].btn-block {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
-    color: white;
+    color: #fff;
     background-color: #2f96b4;
     *background-color: #2a85a0; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-info:active, .btn-info.active {
     background-color: #24748c \9; }
 
 /* line 165, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-inverse {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #363636;
-  background-image: -moz-linear-gradient(top, #444444, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
-  background-image: -webkit-linear-gradient(top, #444444, #222222);
-  background-image: -o-linear-gradient(top, #444444, #222222);
-  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-image: -moz-linear-gradient(top, #444, #222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#222));
+  background-image: -webkit-linear-gradient(top, #444, #222);
+  background-image: -o-linear-gradient(top, #444, #222);
+  background-image: linear-gradient(to bottom, #444, #222);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF444444', endColorstr='#FF222222', GradientType=0);
-  border-color: #222222 #222222 black;
+  border-color: #222 #222 black;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #222222;
+  *background-color: #222;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
-    color: white;
-    background-color: #222222;
+    color: #fff;
+    background-color: #222;
     *background-color: #151515; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-inverse:active, .btn-inverse.active {
     background-color: #090909 \9; }
 
-/* line 174, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 173, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 button.btn,
 input[type="submit"].btn {
   *padding-top: 3px;
@@ -3330,7 +3329,7 @@ input[type="submit"].btn {
     *padding-top: 1px;
     *padding-bottom: 1px; }
 
-/* line 207, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 205, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link,
 .btn-link:active,
 .btn-link[disabled] {
@@ -3344,22 +3343,22 @@ input[type="submit"].btn {
 .btn-link {
   border-color: transparent;
   cursor: pointer;
-  color: #0088cc;
+  color: #08c;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0; }
 
-/* line 219, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 218, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover,
 .btn-link:focus {
   color: #005580;
   text-decoration: underline;
   background-color: transparent; }
 
-/* line 225, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 224, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover,
 .btn-link[disabled]:focus {
-  color: #333333;
+  color: #333;
   text-decoration: none; }
 
 /* line 7, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
@@ -3386,7 +3385,7 @@ input[type="submit"].btn {
   font-size: 0;
   margin-top: 10px;
   margin-bottom: 10px; }
-  /* line 29, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+  /* line 27, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-toolbar > .btn + .btn,
   .btn-toolbar > .btn-group + .btn,
   .btn-toolbar > .btn + .btn-group {
@@ -3403,7 +3402,7 @@ input[type="submit"].btn {
 .btn-group > .btn + .btn {
   margin-left: -1px; }
 
-/* line 44, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+/* line 42, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
@@ -3431,7 +3430,7 @@ input[type="submit"].btn {
   -moz-border-radius-bottomleft: 4px;
   border-bottom-left-radius: 4px; }
 
-/* line 67, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+/* line 66, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group > .btn:last-child,
 .btn-group > .dropdown-toggle {
   -webkit-border-top-right-radius: 4px;
@@ -3451,7 +3450,7 @@ input[type="submit"].btn {
   -moz-border-radius-bottomleft: 6px;
   border-bottom-left-radius: 6px; }
 
-/* line 78, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+/* line 77, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:last-child,
 .btn-group > .large.dropdown-toggle {
   -webkit-border-top-right-radius: 6px;
@@ -3461,14 +3460,14 @@ input[type="submit"].btn {
   -moz-border-radius-bottomright: 6px;
   border-bottom-right-radius: 6px; }
 
-/* line 87, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+/* line 84, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group > .btn:hover,
 .btn-group > .btn:focus,
 .btn-group > .btn:active,
 .btn-group > .btn.active {
   z-index: 2; }
 
-/* line 93, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+/* line 92, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0; }
@@ -3528,7 +3527,7 @@ input[type="submit"].btn {
   background-color: #2f96b4; }
 /* line 155, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group.open .btn-inverse.dropdown-toggle {
-  background-color: #222222; }
+  background-color: #222; }
 
 /* line 162, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn .caret {
@@ -3545,7 +3544,7 @@ input[type="submit"].btn {
   border-right-width: 5px;
   border-top-width: 5px; }
 
-/* line 176, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
+/* line 175, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-mini .caret,
 .btn-small .caret {
   margin-top: 8px; }
@@ -3561,8 +3560,8 @@ input[type="submit"].btn {
 .btn-info .caret,
 .btn-success .caret,
 .btn-inverse .caret {
-  border-top-color: white;
-  border-bottom-color: white; }
+  border-top-color: #fff;
+  border-bottom-color: #fff; }
 
 /* line 204, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical {
@@ -3620,7 +3619,7 @@ input[type="submit"].btn {
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 18, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
+/* line 17, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert,
 .alert h4 {
   color: #c09853; }
@@ -3646,14 +3645,14 @@ input[type="submit"].btn {
 .alert-success h4 {
   color: #468847; }
 
-/* line 47, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
+/* line 46, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-danger,
 .alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
   color: #b94a48; }
 
-/* line 53, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
+/* line 52, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-danger h4,
 .alert-error h4 {
   color: #b94a48; }
@@ -3673,7 +3672,7 @@ input[type="submit"].btn {
   padding-top: 14px;
   padding-bottom: 14px; }
 
-/* line 74, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
+/* line 73, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-block > p,
 .alert-block > ul {
   margin-bottom: 0; }
@@ -3692,11 +3691,11 @@ input[type="submit"].btn {
 .nav > li > a {
   display: block; }
 
-/* line 20, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 19, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee; }
+  background-color: #eee; }
 
 /* line 27, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a > img {
@@ -3713,7 +3712,7 @@ input[type="submit"].btn {
   font-size: 11px;
   font-weight: bold;
   line-height: 20px;
-  color: #999999;
+  color: #999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase; }
 
@@ -3727,7 +3726,7 @@ input[type="submit"].btn {
   padding-right: 15px;
   margin-bottom: 0; }
 
-/* line 63, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 62, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-list > li > a,
 .nav-list .nav-header {
   margin-left: -15px;
@@ -3738,15 +3737,15 @@ input[type="submit"].btn {
 .nav-list > li > a {
   padding: 3px 15px; }
 
-/* line 73, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 71, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #0088cc; }
+  background-color: #08c; }
 
-/* line 79, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 78, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-list [class^="icon-"],
 .nav-list [class*=" icon-"] {
   margin-right: 2px; }
@@ -3759,13 +3758,13 @@ input[type="submit"].btn {
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid #fff; }
 
-/* line 94, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 93, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs,
 .nav-pills {
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .nav-tabs:before, .nav-tabs:after,
   .nav-pills:before,
   .nav-pills:after {
@@ -3777,12 +3776,12 @@ input[type="submit"].btn {
   .nav-pills:after {
     clear: both; }
 
-/* line 98, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 97, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li,
 .nav-pills > li {
   float: left; }
 
-/* line 102, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 101, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a,
 .nav-pills > li > a {
   padding-right: 12px;
@@ -3807,16 +3806,16 @@ input[type="submit"].btn {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0; }
-  /* line 128, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+  /* line 127, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
-    border-color: #eeeeee #eeeeee #dddddd; }
+    border-color: #eee #eee #ddd; }
 
-/* line 135, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 133, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-  color: #555555;
-  background-color: white;
+  color: #555;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default; }
@@ -3831,12 +3830,12 @@ input[type="submit"].btn {
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 159, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 157, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
-  color: white;
-  background-color: #0088cc; }
+  color: #fff;
+  background-color: #08c; }
 
 /* line 170, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
@@ -3875,7 +3874,7 @@ input[type="submit"].btn {
   -moz-border-radius-bottomleft: 4px;
   border-bottom-left-radius: 4px; }
 
-/* line 192, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 191, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs.nav-stacked > li > a:hover,
 .nav-tabs.nav-stacked > li > a:focus {
   border-color: #ddd;
@@ -3903,11 +3902,11 @@ input[type="submit"].btn {
 
 /* line 220, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .dropdown-toggle .caret {
-  border-top-color: #0088cc;
-  border-bottom-color: #0088cc;
+  border-top-color: #08c;
+  border-bottom-color: #08c;
   margin-top: 6px; }
 
-/* line 226, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 225, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .dropdown-toggle:hover .caret,
 .nav .dropdown-toggle:focus .caret {
   border-top-color: #005580;
@@ -3925,42 +3924,42 @@ input[type="submit"].btn {
 
 /* line 241, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs .active .dropdown-toggle .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555; }
+  border-top-color: #555;
+  border-bottom-color: #555; }
 
-/* line 249, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 248, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > .dropdown.active > a:hover,
 .nav > .dropdown.active > a:focus {
   cursor: pointer; }
 
-/* line 258, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 255, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs .open .dropdown-toggle,
 .nav-pills .open .dropdown-toggle,
 .nav > li.dropdown.open.active > a:hover,
 .nav > li.dropdown.open.active > a:focus {
-  color: white;
-  background-color: #999999;
-  border-color: #999999; }
+  color: #fff;
+  background-color: #999;
+  border-color: #999; }
 
-/* line 266, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 263, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav li.dropdown.open .caret,
 .nav li.dropdown.open.active .caret,
 .nav li.dropdown.open a:hover .caret,
 .nav li.dropdown.open a:focus .caret {
-  border-top-color: white;
-  border-bottom-color: white;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 274, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 273, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-stacked .open > a:hover,
 .tabs-stacked .open > a:focus {
-  border-color: #999999; }
+  border-color: #999; }
 
 /* line 288, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabbable {
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .tabbable:before, .tabbable:after {
     display: table;
     content: "";
@@ -3973,18 +3972,18 @@ input[type="submit"].btn {
 .tab-content {
   overflow: auto; }
 
-/* line 298, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 296, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
 .tabs-left > .nav-tabs {
   border-bottom: 0; }
 
-/* line 304, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 303, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .tab-pane,
 .pill-content > .pill-pane {
   display: none; }
 
-/* line 308, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 307, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .active,
 .pill-content > .active {
   display: block; }
@@ -4003,23 +4002,23 @@ input[type="submit"].btn {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px; }
-  /* line 326, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+  /* line 325, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .tabs-below > .nav-tabs > li > a:hover, .tabs-below > .nav-tabs > li > a:focus {
     border-bottom-color: transparent;
     border-top-color: #ddd; }
 
-/* line 333, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 331, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-below > .nav-tabs > .active > a,
 .tabs-below > .nav-tabs > .active > a:hover,
 .tabs-below > .nav-tabs > .active > a:focus {
   border-color: transparent #ddd #ddd #ddd; }
 
-/* line 342, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 341, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li,
 .tabs-right > .nav-tabs > li {
   float: none; }
 
-/* line 346, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 345, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li > a,
 .tabs-right > .nav-tabs > li > a {
   min-width: 74px;
@@ -4039,17 +4038,17 @@ input[type="submit"].btn {
   -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px; }
 
-/* line 363, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 362, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
-  border-color: #eeeeee #dddddd #eeeeee #eeeeee; }
+  border-color: #eee #ddd #eee #eee; }
 
-/* line 368, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 366, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-left > .nav-tabs .active > a,
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
   border-color: #ddd transparent #ddd #ddd;
-  *border-right-color: white; }
+  *border-right-color: #fff; }
 
 /* line 374, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs {
@@ -4064,23 +4063,23 @@ input[type="submit"].btn {
   -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0; }
 
-/* line 384, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 383, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs > li > a:hover,
 .tabs-right > .nav-tabs > li > a:focus {
-  border-color: #eeeeee #eeeeee #eeeeee #dddddd; }
+  border-color: #eee #eee #eee #ddd; }
 
-/* line 389, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 387, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .tabs-right > .nav-tabs .active > a,
 .tabs-right > .nav-tabs .active > a:hover,
 .tabs-right > .nav-tabs .active > a:focus {
   border-color: #ddd #ddd #ddd transparent;
-  *border-left-color: white; }
+  *border-left-color: #fff; }
 
 /* line 400, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > .disabled > a {
-  color: #999999; }
+  color: #999; }
 
-/* line 405, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
+/* line 404, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav > .disabled > a:hover,
 .nav > .disabled > a:focus {
   text-decoration: none;
@@ -4100,10 +4099,10 @@ input[type="submit"].btn {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #f9f9f9;
-  background-image: -moz-linear-gradient(top, white, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, white, #f2f2f2);
-  background-image: -o-linear-gradient(top, white, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF2F2F2', GradientType=0);
@@ -4115,7 +4114,7 @@ input[type="submit"].btn {
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-inner:before, .navbar-inner:after {
     display: table;
     content: "";
@@ -4141,9 +4140,9 @@ input[type="submit"].btn {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
-  color: #777777;
-  text-shadow: 0 1px 0 white; }
-  /* line 60, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  color: #777;
+  text-shadow: 0 1px 0 #ffffff; }
+  /* line 59, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar .brand:hover, .navbar .brand:focus {
     text-decoration: none; }
 
@@ -4151,28 +4150,28 @@ input[type="submit"].btn {
 .navbar-text {
   margin-bottom: 0;
   line-height: 40px;
-  color: #777777; }
+  color: #777; }
 
 /* line 75, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-link {
-  color: #777777; }
-  /* line 78, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  color: #777; }
+  /* line 77, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-link:hover, .navbar-link:focus {
-    color: #333333; }
+    color: #333; }
 
 /* line 85, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .divider-vertical {
   height: 40px;
   margin: 0 9px;
   border-left: 1px solid #f2f2f2;
-  border-right: 1px solid white; }
+  border-right: 1px solid #ffffff; }
 
-/* line 95, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 94, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .btn,
 .navbar .btn-group {
   margin-top: 5px; }
 
-/* line 102, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 98, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .btn-group .btn,
 .navbar .input-prepend .btn,
 .navbar .input-append .btn,
@@ -4184,7 +4183,7 @@ input[type="submit"].btn {
 .navbar-form {
   margin-bottom: 0;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-form:before, .navbar-form:after {
     display: table;
     content: "";
@@ -4192,24 +4191,24 @@ input[type="submit"].btn {
   /* line 22, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-form:after {
     clear: both; }
-  /* line 114, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 111, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form input,
   .navbar-form select,
   .navbar-form .radio,
   .navbar-form .checkbox {
     margin-top: 5px; }
-  /* line 119, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 117, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form input,
   .navbar-form select,
   .navbar-form .btn {
     display: inline-block;
     margin-bottom: 0; }
-  /* line 125, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 123, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form input[type="image"],
   .navbar-form input[type="checkbox"],
   .navbar-form input[type="radio"] {
     margin-top: 3px; }
-  /* line 129, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 128, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form .input-append,
   .navbar-form .input-prepend {
     margin-top: 5px;
@@ -4247,7 +4246,7 @@ input[type="submit"].btn {
     -moz-border-radius: 0;
     border-radius: 0; }
 
-/* line 173, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 172, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -4256,7 +4255,7 @@ input[type="submit"].btn {
   z-index: 1030;
   margin-bottom: 0; }
 
-/* line 181, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 180, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-inner,
 .navbar-static-top .navbar-inner {
   border-width: 0 0 1px; }
@@ -4265,7 +4264,7 @@ input[type="submit"].btn {
 .navbar-fixed-bottom .navbar-inner {
   border-width: 1px 0 0; }
 
-/* line 188, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 187, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-top .navbar-inner,
 .navbar-fixed-bottom .navbar-inner {
   padding-left: 0;
@@ -4274,7 +4273,7 @@ input[type="submit"].btn {
   -moz-border-radius: 0;
   border-radius: 0; }
 
-/* line 198, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 196, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
@@ -4321,26 +4320,26 @@ input[type="submit"].btn {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #777777;
+  color: #777;
   text-decoration: none;
-  text-shadow: 0 1px 0 white; }
+  text-shadow: 0 1px 0 #ffffff; }
 
 /* line 250, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px; }
 
-/* line 256, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 255, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: #333333;
+  color: #333;
   text-decoration: none; }
 
-/* line 265, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 263, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #555555;
+  color: #555;
   text-decoration: none;
   background-color: #e6e6e6;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -4354,7 +4353,7 @@ input[type="submit"].btn {
   padding: 7px 10px;
   margin-left: 5px;
   margin-right: 5px;
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #ededed;
   background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6);
@@ -4374,10 +4373,10 @@ input[type="submit"].btn {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
-    color: white;
+    color: #fff;
     background-color: #e6e6e6;
     *background-color: #d9d9d9; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar .btn-navbar:active, .navbar .btn-navbar.active {
     background-color: #cccccc \9; }
 
@@ -4415,7 +4414,7 @@ input[type="submit"].btn {
   display: inline-block;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 6px solid white;
+  border-bottom: 6px solid #fff;
   position: absolute;
   top: -6px;
   left: 10px; }
@@ -4429,37 +4428,37 @@ input[type="submit"].btn {
   top: auto; }
 /* line 333, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .nav > li > .dropdown-menu:after {
-  border-top: 6px solid white;
+  border-top: 6px solid #fff;
   border-bottom: 0;
   bottom: -6px;
   top: auto; }
 
-/* line 343, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 342, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown > a:hover .caret,
 .navbar .nav li.dropdown > a:focus .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555; }
+  border-top-color: #555;
+  border-bottom-color: #555; }
 
-/* line 351, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 349, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #e6e6e6;
-  color: #555555; }
+  color: #555; }
 
 /* line 355, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777; }
+  border-top-color: #777;
+  border-bottom-color: #777; }
 
-/* line 361, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 359, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: #555555;
-  border-bottom-color: #555555; }
+  border-top-color: #555;
+  border-bottom-color: #555; }
 
-/* line 368, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 367, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar .pull-right > li > .dropdown-menu,
 .navbar .nav > li > .dropdown-menu.pull-right {
   left: auto;
@@ -4496,67 +4495,67 @@ input[type="submit"].btn {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF222222', endColorstr='#FF111111', GradientType=0);
   border-color: #252525; }
-/* line 400, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 399, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #999999;
+  color: #999;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
-  /* line 404, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 403, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .brand:hover, .navbar-inverse .brand:focus,
   .navbar-inverse .nav > li > a:hover,
   .navbar-inverse .nav > li > a:focus {
-    color: white; }
+    color: #fff; }
 /* line 409, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .brand {
-  color: #999999; }
+  color: #999; }
 /* line 413, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
-  color: #999999; }
-/* line 418, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  color: #999; }
+/* line 417, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   background-color: transparent;
-  color: white; }
-/* line 425, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  color: #fff; }
+/* line 423, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  color: white;
+  color: #fff;
   background-color: #111111; }
 /* line 431, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
-  color: #999999; }
-  /* line 434, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  color: #999; }
+  /* line 433, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-link:hover, .navbar-inverse .navbar-link:focus {
-    color: white; }
+    color: #fff; }
 /* line 440, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .divider-vertical {
   border-left-color: #111111;
   border-right-color: #222222; }
-/* line 448, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+/* line 446, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #111111;
-  color: white; }
-/* line 453, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  color: #fff; }
+/* line 452, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown > a:hover .caret,
 .navbar-inverse .nav li.dropdown > a:focus .caret {
-  border-top-color: white;
-  color: white; }
+  border-top-color: #fff;
+  color: #fff; }
 /* line 457, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #999999;
-  border-bottom-color: #999999; }
-/* line 463, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+  border-top-color: #999;
+  border-bottom-color: #999; }
+/* line 461, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
-  border-top-color: white;
-  border-bottom-color: white; }
+  border-top-color: #fff;
+  border-bottom-color: #fff; }
 /* line 470, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-search .search-query {
-  color: white;
+  color: #fff;
   background-color: #515151;
   border-color: #111111;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
@@ -4568,19 +4567,19 @@ input[type="submit"].btn {
   transition: none; }
   /* line 83, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-inverse .navbar-search .search-query:-moz-placeholder {
-    color: #cccccc; }
+    color: #ccc; }
   /* line 86, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-inverse .navbar-search .search-query:-ms-input-placeholder {
-    color: #cccccc; }
+    color: #ccc; }
   /* line 89, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-inverse .navbar-search .search-query::-webkit-input-placeholder {
-    color: #cccccc; }
-  /* line 480, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
+    color: #ccc; }
+  /* line 479, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused {
     padding: 5px 15px;
-    color: #333333;
-    text-shadow: 0 1px 0 white;
-    background-color: white;
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #fff;
     border: 0;
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
@@ -4588,7 +4587,7 @@ input[type="submit"].btn {
     outline: 0; }
 /* line 493, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-navbar {
-  color: white;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #0e0e0e;
   background-image: -moz-linear-gradient(top, #151515, #040404);
@@ -4605,10 +4604,10 @@ input[type="submit"].btn {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   /* line 513, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:focus, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
-    color: white;
+    color: #fff;
     background-color: #040404;
     *background-color: black; }
-  /* line 521, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 520, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active {
     background-color: black \9; }
 
@@ -4627,14 +4626,14 @@ input[type="submit"].btn {
     *display: inline;
     /* IE7 inline-block hack */
     *zoom: 1;
-    text-shadow: 0 1px 0 white; }
+    text-shadow: 0 1px 0 #fff; }
     /* line 16, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss */
     .breadcrumb > li > .divider {
       padding: 0 5px;
       color: #ccc; }
   /* line 21, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss */
   .breadcrumb .active {
-    color: #999999; }
+    color: #999; }
 
 /* line 6, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination {
@@ -4659,40 +4658,40 @@ input[type="submit"].btn {
 .pagination ul > li {
   display: inline; }
 
-/* line 25, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 24, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination ul > li > a,
 .pagination ul > li > span {
   float: left;
   padding: 4px 12px;
   line-height: 20px;
   text-decoration: none;
-  background-color: white;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-left-width: 0; }
 
-/* line 37, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 34, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
-/* line 41, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 40, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  color: #999999;
+  color: #999;
   cursor: default; }
 
-/* line 48, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 45, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination ul > .disabled > span,
 .pagination ul > .disabled > a,
 .pagination ul > .disabled > a:hover,
 .pagination ul > .disabled > a:focus {
-  color: #999999;
+  color: #999;
   background-color: transparent;
   cursor: default; }
 
-/* line 54, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 53, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination ul > li:first-child > a,
 .pagination ul > li:first-child > span {
   border-left-width: 1px;
@@ -4703,7 +4702,7 @@ input[type="submit"].btn {
   -moz-border-radius-bottomleft: 4px;
   border-bottom-left-radius: 4px; }
 
-/* line 59, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 58, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination ul > li:last-child > a,
 .pagination ul > li:last-child > span {
   -webkit-border-top-right-radius: 4px;
@@ -4721,12 +4720,12 @@ input[type="submit"].btn {
 .pagination-right {
   text-align: right; }
 
-/* line 81, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 80, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
   font-size: 17.5px; }
-/* line 86, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 85, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-large ul > li:first-child > a,
 .pagination-large ul > li:first-child > span {
   -webkit-border-top-left-radius: 6px;
@@ -4735,7 +4734,7 @@ input[type="submit"].btn {
   -webkit-border-bottom-left-radius: 6px;
   -moz-border-radius-bottomleft: 6px;
   border-bottom-left-radius: 6px; }
-/* line 90, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 89, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-large ul > li:last-child > a,
 .pagination-large ul > li:last-child > span {
   -webkit-border-top-right-radius: 6px;
@@ -4745,7 +4744,7 @@ input[type="submit"].btn {
   -moz-border-radius-bottomright: 6px;
   border-bottom-right-radius: 6px; }
 
-/* line 99, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 98, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-mini ul > li:first-child > a,
 .pagination-mini ul > li:first-child > span,
 .pagination-small ul > li:first-child > a,
@@ -4756,7 +4755,7 @@ input[type="submit"].btn {
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-radius-bottomleft: 3px;
   border-bottom-left-radius: 3px; }
-/* line 103, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 102, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-mini ul > li:last-child > a,
 .pagination-mini ul > li:last-child > span,
 .pagination-small ul > li:last-child > a,
@@ -4768,13 +4767,13 @@ input[type="submit"].btn {
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px; }
 
-/* line 111, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 110, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
   font-size: 11.9px; }
 
-/* line 119, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
+/* line 118, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 0px 6px;
@@ -4786,7 +4785,7 @@ input[type="submit"].btn {
   list-style: none;
   text-align: center;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .pager:before, .pager:after {
     display: table;
     content: "";
@@ -4799,7 +4798,7 @@ input[type="submit"].btn {
 .pager li {
   display: inline; }
 
-/* line 16, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
+/* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager li > a,
 .pager li > span {
   display: inline-block;
@@ -4810,28 +4809,28 @@ input[type="submit"].btn {
   -moz-border-radius: 15px;
   border-radius: 15px; }
 
-/* line 24, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
+/* line 23, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
   background-color: #f5f5f5; }
 
-/* line 29, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
+/* line 28, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager .next > a,
 .pager .next > span {
   float: right; }
 
-/* line 33, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
+/* line 32, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager .previous > a,
 .pager .previous > span {
   float: left; }
 
-/* line 39, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
+/* line 36, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #999999;
+  color: #999;
   background-color: #fff;
   cursor: default; }
 
@@ -4843,12 +4842,12 @@ input[type="submit"].btn {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: black; }
+  background-color: #000; }
   /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.fade {
     opacity: 0; }
 
-/* line 19, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_modals.scss */
+/* line 18, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop,
 .modal-backdrop.fade.in {
   opacity: 0.8;
@@ -4862,7 +4861,7 @@ input[type="submit"].btn {
   z-index: 1050;
   width: 560px;
   margin-left: -280px;
-  background-color: white;
+  background-color: #fff;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.3);
   *border: 1px solid #999;
@@ -4921,11 +4920,11 @@ input[type="submit"].btn {
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: inset 0 1px 0 white;
-  -moz-box-shadow: inset 0 1px 0 white;
-  box-shadow: inset 0 1px 0 white;
+  -webkit-box-shadow: inset 0 1px 0 #fff;
+  -moz-box-shadow: inset 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 #fff;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .modal-footer:before, .modal-footer:after {
     display: table;
     content: "";
@@ -4979,10 +4978,10 @@ input[type="submit"].btn {
 .tooltip-inner {
   max-width: 200px;
   padding: 8px;
-  color: white;
+  color: #fff;
   text-align: center;
   text-decoration: none;
-  background-color: black;
+  background-color: #000;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -5001,28 +5000,28 @@ input[type="submit"].btn {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: black; }
+  border-top-color: #000; }
 /* line 49, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: black; }
+  border-right-color: #000; }
 /* line 56, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: black; }
+  border-left-color: #000; }
 /* line 63, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: black; }
+  border-bottom-color: #000; }
 
 /* line 6, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_popovers.scss */
 .popover {
@@ -5034,7 +5033,7 @@ input[type="submit"].btn {
   max-width: 276px;
   padding: 1px;
   text-align: left;
-  background-color: white;
+  background-color: #fff;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -5080,7 +5079,7 @@ input[type="submit"].btn {
 .popover-content {
   padding: 9px 14px; }
 
-/* line 58, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_popovers.scss */
+/* line 57, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_popovers.scss */
 .popover .arrow,
 .popover .arrow:after {
   position: absolute;
@@ -5112,7 +5111,7 @@ input[type="submit"].btn {
     bottom: 1px;
     margin-left: -10px;
     border-bottom-width: 0;
-    border-top-color: white; }
+    border-top-color: #fff; }
 /* line 89, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.right .arrow {
   top: 50%;
@@ -5126,7 +5125,7 @@ input[type="submit"].btn {
     left: 1px;
     bottom: -10px;
     border-left-width: 0;
-    border-right-color: white; }
+    border-right-color: #fff; }
 /* line 103, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.bottom .arrow {
   left: 50%;
@@ -5140,7 +5139,7 @@ input[type="submit"].btn {
     top: 1px;
     margin-left: -10px;
     border-top-width: 0;
-    border-bottom-color: white; }
+    border-bottom-color: #fff; }
 /* line 118, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.left .arrow {
   top: 50%;
@@ -5153,7 +5152,7 @@ input[type="submit"].btn {
   .popover.left .arrow:after {
     right: 1px;
     border-right-width: 0;
-    border-left-color: white;
+    border-left-color: #fff;
     bottom: -10px; }
 
 /* line 9, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
@@ -5161,7 +5160,7 @@ input[type="submit"].btn {
   margin-left: -20px;
   list-style: none;
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .thumbnails:before, .thumbnails:after {
     display: table;
     content: "";
@@ -5197,10 +5196,10 @@ input[type="submit"].btn {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-/* line 38, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
+/* line 37, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #0088cc;
+  border-color: #08c;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25); }
@@ -5215,16 +5214,16 @@ a.thumbnail:focus {
 /* line 50, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #555555; }
+  color: #555; }
 
-/* line 11, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_media.scss */
+/* line 10, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_media.scss */
 .media,
 .media-body {
   overflow: hidden;
   *overflow: visible;
   zoom: 1; }
 
-/* line 19, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_media.scss */
+/* line 18, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_media.scss */
 .media,
 .media .media {
   margin-top: 15px; }
@@ -5254,7 +5253,7 @@ a.thumbnail:focus {
   margin-left: 0;
   list-style: none; }
 
-/* line 8, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
+/* line 7, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .label,
 .badge {
   display: inline-block;
@@ -5262,11 +5261,11 @@ a.thumbnail:focus {
   font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
-  color: white;
+  color: #fff;
   vertical-align: baseline;
   white-space: nowrap;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #999999; }
+  background-color: #999; }
 
 /* line 21, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .label {
@@ -5287,9 +5286,9 @@ a.thumbnail:focus {
 .badge:empty {
   display: none; }
 
-/* line 43, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
+/* line 40, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer; }
 
@@ -5327,7 +5326,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 66, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .label-inverse {
-  background-color: #333333; }
+  background-color: #333; }
 
 /* line 67, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .label-inverse[href] {
@@ -5367,78 +5366,58 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 66, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .badge-inverse {
-  background-color: #333333; }
+  background-color: #333; }
 
 /* line 67, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .badge-inverse[href] {
   background-color: #1a1a1a; }
 
-/* line 73, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
+/* line 72, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .btn .label,
 .btn .badge {
   position: relative;
   top: -1px; }
 
-/* line 80, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
+/* line 79, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_labels-badges.scss */
 .btn-mini .label,
 .btn-mini .badge {
   top: 0; }
 
 @-webkit-keyframes progress-bar-stripes {
-  /* line 11, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0; }
-
-  /* line 12, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0; } }
-
 @-moz-keyframes progress-bar-stripes {
-  /* line 17, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0; }
-
-  /* line 18, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0; } }
-
 @-ms-keyframes progress-bar-stripes {
-  /* line 23, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0; }
-
-  /* line 24, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0; } }
-
 @-o-keyframes progress-bar-stripes {
-  /* line 29, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   from {
     background-position: 0 0; }
-
-  /* line 30, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   to {
     background-position: 40px 0; } }
-
 @keyframes progress-bar-stripes {
-  /* line 35, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   from {
     background-position: 40px 0; }
-
-  /* line 36, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
   to {
     background-position: 0 0; } }
-
 /* line 45, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
   height: 20px;
   margin-bottom: 20px;
   background-color: #f6f6f6;
-  background-image: -moz-linear-gradient(top, whitesmoke, #f9f9f9);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whitesmoke), to(#f9f9f9));
-  background-image: -webkit-linear-gradient(top, whitesmoke, #f9f9f9);
-  background-image: -o-linear-gradient(top, whitesmoke, #f9f9f9);
+  background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
   background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFF9F9F9', GradientType=0);
@@ -5453,7 +5432,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .progress .bar {
   width: 0%;
   height: 100%;
-  color: white;
+  color: #fff;
   float: left;
   font-size: 12px;
   text-align: center;
@@ -5634,12 +5613,12 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   -moz-transition: 0.6s ease-in-out left;
   -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left; }
-  /* line 27, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 26, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     display: block;
     line-height: 1; }
-/* line 35, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 33, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
@@ -5647,7 +5626,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 37, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .active {
   left: 0; }
-/* line 42, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 41, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
@@ -5659,7 +5638,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 51, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .prev {
   left: -100%; }
-/* line 55, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 54, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0; }
@@ -5681,10 +5660,10 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   font-size: 60px;
   font-weight: 100;
   line-height: 30px;
-  color: white;
+  color: #fff;
   text-align: center;
-  background: #222222;
-  border: 3px solid white;
+  background: #222;
+  border: 3px solid #fff;
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   border-radius: 23px;
@@ -5694,9 +5673,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   .carousel-control.right {
     left: auto;
     right: 15px; }
-  /* line 103, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 102, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control:hover, .carousel-control:focus {
-    color: white;
+    color: #fff;
     text-decoration: none;
     opacity: 0.9;
     filter: alpha(opacity=90); }
@@ -5731,13 +5710,13 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   right: 0;
   bottom: 0;
   padding: 15px;
-  background: #333333;
+  background: #333;
   background: rgba(0, 0, 0, 0.75); }
 
-/* line 149, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 148, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-caption h4,
 .carousel-caption p {
-  color: white;
+  color: #fff;
   line-height: 20px; }
 
 /* line 153, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_carousel.scss */
@@ -5756,7 +5735,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #eee;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px; }
@@ -5798,7 +5777,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 33, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_utilities.scss */
 .clearfix {
   *zoom: 1; }
-  /* line 15, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  /* line 14, /Users/valeriecox/.rvm/gems/ruby-1.9.3-p448@habitat/gems/bootstrap-sass-2.3.2.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .clearfix:before, .clearfix:after {
     display: table;
     content: "";
@@ -5831,29 +5810,29 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 19, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 16, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 p, li {
   font-size: 1rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: #555; }
 
-/* line 25, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 22, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 p {
   margin: 0 0 1rem; }
 
-/* line 28, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 25, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 h2 {
   margin-bottom: 1.5rem; }
 
-/* line 31, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 28, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 h4 {
   margin: 1rem 0 0.25rem;
   font-size: 1.4rem; }
 
 /* =wrapper
 ---------------------------------------------------------------------------- */
-/* line 38, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 35, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .wrapper {
   width: 980px;
   margin: auto;
@@ -5867,15 +5846,15 @@ h4 {
 
 /* =header
 ---------------------------------------------------------------------------- */
-/* line 47, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 44, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 header {
   position: relative;
   padding: 0 20px;
-  border-bottom: 1px solid #cccccc; }
-  /* line 52, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  border-bottom: 1px solid #CCCCCC; }
+  /* line 49, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   header .logo {
     margin: 0; }
-    /* line 58, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 52, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     header .logo a:link,
     header .logo a:visited,
     header .logo a:hover,
@@ -5886,12 +5865,12 @@ header {
       text-indent: -9999px;
       background: url("../images/habitat-logo.png") no-repeat 0 0; }
 
-/* line 67, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 64, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .masthead {
   position: relative;
   padding: 8px 0; }
 
-/* line 71, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 68, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .headline {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
   font-size: 2.2rem;
@@ -5901,35 +5880,35 @@ header {
   bottom: 24px;
   right: 10px; }
 
-/* line 80, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 77, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .social-links {
   list-style-type: none;
   position: absolute;
   top: 26px;
   right: 0; }
-  /* line 86, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 83, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .social-links li {
     float: left; }
-    /* line 89, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 86, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .social-links li a {
       padding: 0 5px; }
-    /* line 92, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 89, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .social-links li img {
       height: 36px; }
 
-/* line 97, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 94, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .container nav {
   background: #005f99;
   margin: 0 -20px; }
-  /* line 101, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 98, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .container nav ul {
     margin: 0;
     clear: left;
     list-style-type: none; }
-  /* line 106, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 103, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .container nav li {
     float: left; }
-    /* line 112, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 106, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .container nav li a:link,
     .container nav li a:visited,
     .container nav li a:hover,
@@ -5942,69 +5921,70 @@ header {
       font-weight: 200;
       line-height: 1;
       text-decoration: none; }
-    /* line 124, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 120, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .container nav li.active a,
     .container nav li a:hover {
       background: #5cbc51;
       border-left-color: #6cd660; }
-    /* line 128, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 125, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .container nav li.active a {
       border-left-color: #5cbc51; }
 
 /* =main
 ---------------------------------------------------------------------------- */
-/* line 136, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 133, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .main {
   padding: 0 20px; }
-  /* line 139, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 136, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .main ol li {
     margin: 1rem 0; }
 
 /* =sidebar
 ---------------------------------------------------------------------------- */
-/* line 146, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 143, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .sidebar {
-  list-style-type: none; }
-  /* line 148, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  list-style-type: none;
+  margin-bottom: 2rem; }
+  /* line 147, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .sidebar li {
     margin: 5px 0; }
-  /* line 152, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 151, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .sidebar a {
     display: block;
     font-size: 1rem;
     padding: 5px 8px;
     border-radius: 5px; }
-    /* line 158, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 157, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .sidebar a:hover {
       background: #ddd;
       color: #000;
       text-decoration: none; }
-  /* line 165, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 164, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .sidebar .active a {
     background: #5cbc51;
     color: #fff; }
 
 /* =home
 ---------------------------------------------------------------------------- */
-/* line 174, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 173, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .main {
   padding-top: 20px; }
 
-/* line 177, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 176, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .call-to-action {
   display: none; }
 
-/* line 180, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 179, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .action-apply {
   display: block; }
 
-/* line 183, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 182, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 h2 {
   font-size: 1.8rem;
   font-weight: 200;
   line-height: 1.1; }
 
-/* line 188, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 187, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 h3 {
   font-size: 1.4;
   font-weight: 200;
@@ -6012,11 +5992,11 @@ h3 {
   line-height: 1.2;
   margin: 2rem 0 1rem; }
 
-/* line 195, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 194, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .main .row {
   position: relative; }
 
-/* line 198, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 197, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .critical-home-repairs {
   position: absolute;
   width: 298px;
@@ -6030,33 +6010,33 @@ h3 {
   -webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.75);
   box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.75); }
-  /* line 213, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 209, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .critical-home-repairs:link, .critical-home-repairs:visited, .critical-home-repairs:hover, .critical-home-repairs:active {
     color: #333;
     display: block;
     text-decoration: none; }
-    /* line 218, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 217, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .critical-home-repairs:link h3, .critical-home-repairs:link p, .critical-home-repairs:visited h3, .critical-home-repairs:visited p, .critical-home-repairs:hover h3, .critical-home-repairs:hover p, .critical-home-repairs:active h3, .critical-home-repairs:active p {
       margin: 0;
       font-family: Helvetica, sans-serif;
       padding: 16px 15px 0; }
-    /* line 223, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 222, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .critical-home-repairs:link h3, .critical-home-repairs:visited h3, .critical-home-repairs:hover h3, .critical-home-repairs:active h3 {
       padding-left: 48px;
       background: url("../images/critical-home-repairs-icon.png") no-repeat 15px 15px;
       font-size: 1.4rem;
       border: 0; }
-    /* line 229, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 228, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .critical-home-repairs:link p, .critical-home-repairs:visited p, .critical-home-repairs:hover p, .critical-home-repairs:active p {
       padding-bottom: 15px;
       font-size: 1rem; }
 
-/* line 235, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 234, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .event {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px dotted #888; }
-  /* line 240, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 239, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .event .calendar {
     float: left;
     width: 50px;
@@ -6066,11 +6046,11 @@ h3 {
     -webkit-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.5);
     -moz-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.5);
     box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.5); }
-    /* line 249, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 247, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .event .calendar .header,
     .event .calendar .month {
       text-align: center; }
-    /* line 252, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 251, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .event .calendar .header {
       height: 14px;
       border-radius: 5px 5px 0 0;
@@ -6078,75 +6058,75 @@ h3 {
       color: #fff;
       font-size: 0.8rem;
       padding: 2px 0 0; }
-    /* line 260, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 259, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .event .calendar .month {
       line-height: 32px;
       font-size: 1.2rem;
       color: #666; }
-  /* line 267, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 265, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .event .event-title,
   .event .event-details {
     margin-left: 70px; }
-  /* line 270, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 269, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .event .event-title {
     font-size: 1.2rem;
     margin-bottom: 0.5rem; }
-  /* line 274, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 273, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .event .event-details {
     color: #555; }
 
-/* line 278, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 277, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .event-contact {
   text-align: center; }
 
 /* =news
 ---------------------------------------------------------------------------- */
-/* line 285, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 284, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 body.news h2 {
   margin-bottom: 0; }
 
-/* line 289, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 288, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .news-headlines ul {
   list-style-type: none;
   margin: -10px 0 0;
   padding: 0; }
-  /* line 294, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 293, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .news-headlines ul li {
     clear: left;
     padding: 10px 0;
     border-bottom: 1px dotted #888; }
-  /* line 299, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 298, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .news-headlines ul .news-thumbnail {
     float: left; }
-  /* line 302, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 301, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   .news-headlines ul .details {
     margin-left: 105px; }
-    /* line 305, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 304, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .news-headlines ul .details h4 {
       font-size: 1rem;
       font-weight: 200;
       line-height: 1.4;
       margin: 0 0 5px; }
-    /* line 314, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 310, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .news-headlines ul .details a:link,
     .news-headlines ul .details a:visited,
     .news-headlines ul .details a:hover,
     .news-headlines ul .details a:active {
       color: #333; }
-    /* line 317, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+    /* line 316, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
     .news-headlines ul .details a:hover {
       color: #000;
       text-decoration: underline; }
 
-/* line 323, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 322, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .news .pull-left {
   margin-right: 15px; }
 
-/* line 326, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 325, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .news .pull-right {
   margin-left: 15px; }
 
-/* line 329, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 328, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .byline {
   margin-bottom: 1rem;
   color: #888;
@@ -6154,11 +6134,12 @@ body.news h2 {
   font-size: 0.8rem;
   letter-spacing: 1px; }
 
-/* line 336, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 335, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 aside {
   padding-right: 15px; }
-  /* line 339, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+  /* line 338, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   aside h2 {
+    margin-bottom: 10px;
     font-size: 0.9rem;
     font-weight: 200;
     text-transform: uppercase;
@@ -6232,14 +6213,14 @@ aside {
   right: 0;
   bottom: 0;
   left: 0;
-  background: white url("../images/carousel-apply-00.jpg") no-repeat 50% 10%;
+  background: #fff url("../images/carousel-apply-00.jpg") no-repeat 50% 10%;
   background-size: cover; }
 
 /* line 416, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-image-00 {
   background-image: url("../images/carousel-apply-00.jpg"); }
 
-/* line 420, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 419, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .rotating-image-01,
 .rotating-image-02 {
   display: none; }
@@ -6290,7 +6271,7 @@ aside {
   font-size: 1rem;
   line-height: 1.4;
   color: #666; }
-/* line 479, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
+/* line 476, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
 .homeowner-spotlight a:link,
 .homeowner-spotlight a:visited,
 .homeowner-spotlight a:hover,
@@ -6387,7 +6368,7 @@ aside {
 footer {
   margin-top: 30px;
   padding: 10px 0 50px;
-  border-top: 1px solid #cccccc; }
+  border-top: 1px solid #CCCCCC; }
   /* line 576, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
   footer .address {
     float: left; }
