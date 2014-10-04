@@ -463,7 +463,7 @@ aside {
 
 /* =spotlight
 ---------------------------------------------------------------------------- */
-.homeowner-spotlight {
+.spotlight {
   .image {
     margin-bottom: 5px;
   }
@@ -549,6 +549,10 @@ aside {
 }
 .image.pull-left {
   margin-right: 20px;
+}
+.image.pull-right,
+.image-pull-left {
+  margin-bottom: 20px;
 }
 .img-polaroid {
   border: 0;
