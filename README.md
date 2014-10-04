@@ -113,6 +113,7 @@ Create a new article using a "slug" for the title. The slug will be used as part
 In iTerm (your terminal), type:
 
     $ middleman article screaming-eagles -d 2013-09-04
+
 This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
 In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on it ('screaming-eagles' in this example).
@@ -145,6 +146,28 @@ Add the image to your article with a `news_image` partial:
         caption: "The Screaming Eagles present a check to Habitat President Don Whitley."
       } %>
     
+
+## Spotlights
+
+The spotlight article process is nearly identical to the news article process. You just have to specify `--blog spotlight` to create the article in the right place. The most recent article you create will be the article visitors see when they go to the Spotlight link in the navigation header.
+
+In iTerm (your terminal), type:
+
+    $ middleman article jones-family --date 2014-10-04 --blog spotlight
+
+This would create a file named: `source/spotlight/2014-10-04-jones-family.html.md`
+
+In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on it ('jones-family' in this example).
+
+Now, the file should be open in your text editor. Edit the title and add the author to the metadata section at the top:
+
+*Important*: You need to specify the category as one of: family, volunteer, or donor for it to show up in the appropriate category.
+
+    ---
+    title: Screaming Eagles Raise Over $6000 for Habitat Powhatan
+    date: 2014-10-09 00:00 UTC
+    category: family
+    ---
 
 ## Advanced
 

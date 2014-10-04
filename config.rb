@@ -73,8 +73,9 @@ activate :blog do |blog|
   # blog.day_link = ":year/:month/:day.html"
   # blog.default_extension = ".markdown"
 
-  blog.default_extension = ".md.erb"
+  blog.name = "news"
   blog.prefix = "news"
+  blog.default_extension = ".md.erb"
   blog.sources = ":year-:month-:day-:title.html"
   blog.permalink = ":year/:month/:day/:title.html"
   blog.layout = "news_layout.html"
@@ -82,6 +83,15 @@ activate :blog do |blog|
   # blog.paginate = true
   # blog.per_page = 10
   # blog.page_link = "page/:num"
+end
+
+activate :blog do |blog|
+  blog.name = "spotlight"
+  blog.prefix = "spotlight"
+  blog.default_extension = ".md.erb"
+  blog.sources = ":year-:month-:day-:title.html"
+  blog.permalink = ":year/:month/:day/:title.html"
+  blog.layout = "spotlight_layout.html"
 end
 
 # Build-specific configuration

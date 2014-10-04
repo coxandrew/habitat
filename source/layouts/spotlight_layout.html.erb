@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <%= partial "head" %>
+
+  <body class="<%= page_classes %>">
+    <div class="wrapper">
+      <%= partial "header" %>
+
+      <div class="main container">
+        <div class="row">
+          <div class="span3">
+            <aside>
+              <h2>Families</h2>
+
+              <ul class="sidebar">
+                <% families = blog('spotlight').articles.select { |article| article.data.category == 'family' } %>
+                <% families[0...5].each do |article| %>
+                  <%= partial :spotlight_link, locals: { article: article } %>
+                <% end %>
+              </ul>
+
+              <h2>Volunteers</h2>
+
+              <ul class="sidebar">
+                <% volunteers = blog('spotlight').articles.select { |article| article.data.category == 'volunteer' } %>
+                <% volunteers[0...5].each do |article| %>
+                  <%= partial :spotlight_link, locals: { article: article } %>
+                <% end %>
+              </ul>
+
+              <h2>Donors</h2>
+
+              <ul class="sidebar">
+                <% donors = blog('spotlight').articles.select { |article| article.data.category == 'donor' } %>
+                <% donors[0...5].each do |article| %>
+                  <%= partial :spotlight_link, locals: { article: article } %>
+                <% end %>
+              </ul>
+            </aside>
+          </div>
+
+          <div class="span9">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+
+      <%= partial "footer" %>
+    </div>
+  </body>
+</html>

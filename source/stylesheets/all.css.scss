@@ -12,9 +12,6 @@ $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 ---------------------------------------------------------------------------- */
 body {
   font-family: $sans_serif;
-
-
-
 }
 p, li {
   font-size: 1rem;
@@ -145,6 +142,8 @@ header {
 ---------------------------------------------------------------------------- */
 .sidebar {
   list-style-type: none;
+  margin-bottom: 2rem;
+
   li {
     margin: 5px 0;
   }
@@ -337,6 +336,7 @@ aside {
   padding-right: 15px;
 
   h2 {
+    margin-bottom: 10px;
     font-size: 0.9rem;
     font-weight: 200;
     text-transform: uppercase;

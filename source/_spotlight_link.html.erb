@@ -1,0 +1,4 @@
+<% current = current_article || @current_article %>
+<li class="<%= 'active' if current.title == article.title %>">
+  <%= link_to article.title, article %>
+</li>
