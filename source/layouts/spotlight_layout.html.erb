@@ -19,23 +19,27 @@
                 <% end %>
               </ul>
 
-              <h2>Volunteers</h2>
+              <% volunteers = blog('spotlight').articles.select { |article| article.data.category == 'volunteer' } %>
+              <% if volunteers.present? %>
+                <h2>Volunteers</h2>
 
-              <ul class="sidebar">
-                <% volunteers = blog('spotlight').articles.select { |article| article.data.category == 'volunteer' } %>
-                <% volunteers[0...5].each do |article| %>
-                  <%= partial :spotlight_link, locals: { article: article } %>
-                <% end %>
-              </ul>
+                <ul class="sidebar">
+                  <% volunteers[0...5].each do |article| %>
+                    <%= partial :spotlight_link, locals: { article: article } %>
+                  <% end %>
+                </ul>
+              <% end %>
 
-              <h2>Donors</h2>
+              <% donors = blog('spotlight').articles.select { |article| article.data.category == 'donor' } %>
+              <% if donors.present? %>
+                <h2>Donors</h2>
 
-              <ul class="sidebar">
-                <% donors = blog('spotlight').articles.select { |article| article.data.category == 'donor' } %>
-                <% donors[0...5].each do |article| %>
-                  <%= partial :spotlight_link, locals: { article: article } %>
-                <% end %>
-              </ul>
+                <ul class="sidebar">
+                  <% donors[0...5].each do |article| %>
+                    <%= partial :spotlight_link, locals: { article: article } %>
+                  <% end %>
+                </ul>
+              <% end %>
             </aside>
           </div>
 

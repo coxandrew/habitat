@@ -120,7 +120,7 @@ end
 
 helpers do
   def nav_active(page)
-    (current_page.path =~ /#{page}/) ? 'active' : ''
+    (current_page.path =~ /^#{page}/) ? 'active' : ''
   end
 
   def sidebar_active(sidebar_link)

@@ -1,7 +1,8 @@
 ---
 title: News - Habitat for Humanity - Powhatan
 layout: news_layout
+blog: news
 ---
 
-<%= partial :news_title, locals: { current_article: page_articles.first } %>
-<%= page_articles.first.body %>
+<%= partial :news_title, locals: { current_article: blog('news').articles.first } %>
+<%= blog('news').articles.first.body %>

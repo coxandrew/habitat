@@ -159,12 +159,12 @@ This would create a file named: `source/spotlight/2014-10-04-jones-family.html.m
 
 In Sublime Text 2 (your text editor), open the file using Cmd+T and start to type the name of the slug and when it appears, click on it ('jones-family' in this example).
 
-Now, the file should be open in your text editor. Edit the title and add the author to the metadata section at the top:
+Now, the file should be open in your text editor. Edit the title and add the category to the metadata section at the top:
 
 *Important*: You need to specify the category as one of: family, volunteer, or donor for it to show up in the appropriate category.
 
     ---
-    title: Screaming Eagles Raise Over $6000 for Habitat Powhatan
+    title: Jones Family
     date: 2014-10-09 00:00 UTC
     category: family
     ---
