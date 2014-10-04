@@ -6263,24 +6263,24 @@ aside {
 /* =spotlight
 ---------------------------------------------------------------------------- */
 /* line 467, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
-.spotlight .image {
+.front-spotlight .image {
   margin-bottom: 5px; }
 /* line 470, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
-.spotlight p {
+.front-spotlight p {
   margin: 0.5rem 0;
   font-size: 1rem;
   line-height: 1.4;
   color: #666; }
 /* line 476, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
-.spotlight a:link,
-.spotlight a:visited,
-.spotlight a:hover,
-.spotlight a:active {
+.front-spotlight a:link,
+.front-spotlight a:visited,
+.front-spotlight a:hover,
+.front-spotlight a:active {
   text-transform: uppercase;
   text-decoration: none;
   color: #333; }
 /* line 484, /Users/valeriecox/Projects/habitat/source/stylesheets/all.css.scss */
-.spotlight a:hover {
+.front-spotlight a:hover {
   text-decoration: underline; }
 
 /* =about
