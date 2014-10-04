@@ -80,9 +80,12 @@ Make sure any new "Untracked files" are removed or moved to a safe place:
     # 
     # some-temporary-file.txt
 
+Your directory must be clean before publishing
+
+    $ git status
+
 When the directory is clean, you should see a message like this:
 
-    (master|*) $ git status
     # On branch master
     # Your branch is ahead of 'origin/master' by 3 commits.
     #   (use "git push" to publish your local commits)
