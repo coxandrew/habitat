@@ -12,6 +12,8 @@ $sans_serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 ---------------------------------------------------------------------------- */
 body {
   font-family: $sans_serif;
+  background-color: #dee5f7;
+  background-image: image-url("subtle-carbon.png");
 }
 p, li {
   font-size: 1rem;
