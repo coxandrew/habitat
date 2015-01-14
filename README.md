@@ -2,7 +2,7 @@
 
 Go to your project (paths in the terminal are relative, so if you're in a different directory and this doesn't work, you can always do: `cd ~/Projects/habitat`):
 
-    $ cd Projects/habitat
+    
 
 *Always* do a `git pull` before starting to work on the site to make sure you have the latest updates from GitHub:
 
