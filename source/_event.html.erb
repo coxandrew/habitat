@@ -1,4 +1,5 @@
-<div class="event">
+<% image ||= nil %>
+<div class="event clearfix">
   <div class="calendar">
     <div class="header"></div>
     <div class="month"><%= month %></div>
@@ -6,4 +7,7 @@
 
   <div class="event-title"><%= title %></div>
   <div class="event-details"><%= details %></div>
+  <% if image.present? %>
+    <%= image_tag image, class: 'img-polaroid pull-right' %>
+  <% end %>
 </div>
