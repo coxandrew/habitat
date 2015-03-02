@@ -115,7 +115,7 @@ Create a new article using a "slug" for the title. The slug will be used as part
 
 In iTerm (your terminal), type:
 
-    $ middleman article screaming-eagles -d 2013-09-04
+    $ middleman article screaming-eagles -d 2013-09-04 --blog news
 
 This would create a file named: `source/news/2013-09-04-screaming-eagles.html.md`
 
